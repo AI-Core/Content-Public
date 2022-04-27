@@ -1,0 +1,16 @@
+# questions:
+#   - question: What are the motivations for using Docker?
+#     options:
+#       - option: Make something that is easy to replicate
+#         reason: 
+# - Why do we need USER command inside Dockerfiles?
+# - What is the ADD command responsible for?
+# - Read more about Storage capabilities of Docker (including volumes)
+# - What is docker-compose (on an abstract level, you don't have to dig into all of the details)
+# - What are Dockerfile's parser directives?
+# - How to configure Docker daemon?
+# - How to enable GPU support inside Docker
+# - What is Docker Engine API and how could one use it? Maybe you can think of a project related to it?
+# - Take a look at Network settings in Docker
+# - Find out how to use a docker container in interactive mode, where when you run it, you go into a shell inside it
+	# - can you run a pytorch container interactively?

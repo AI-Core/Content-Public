@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+jinja2
+requests
+uvloop
+httptools
+BeautifulSoup4

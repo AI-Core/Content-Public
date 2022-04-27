@@ -1,0 +1,22 @@
+<data>
+    <employee name="Alpha">
+        <email>alpha@aicore.com</email>
+        <department>HR</department>
+        <age>36</age>
+    </employee>
+    <employee name="Bravo">
+        <email>bravo@aicore.com</email>
+        <department>sales</department>
+        <age>23</age>
+    </employee>
+    <employee name="Charlie">
+        <email>charlie@aicore.com</email>
+        <department>accounts</department>
+        <age>44</age>
+    </employee>
+    <employee name="Delta">
+        <email>delta@aicore.com</email>
+        <department>reception</department>
+        <age>51</age>
+    </employee>
+</data>

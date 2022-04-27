@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ice/ai-core/content/Deployment-Private/1.%20MLFlow/1.%20MLFlow/example/tracking/mlruns/0/02d65867e4c049c1a7168960fb459812/artifacts
+end_time: 1625421213655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 02d65867e4c049c1a7168960fb459812
+run_uuid: 02d65867e4c049c1a7168960fb459812
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1625421211619
+status: 4
+tags: []
+user_id: ice
