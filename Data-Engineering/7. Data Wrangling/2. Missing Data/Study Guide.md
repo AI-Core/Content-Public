@@ -1,3 +1,0 @@
-1. What is data imputation? Check this webpage for a good explanation: [link](https://en.wikipedia.org/wiki/Imputation_(statistics))
-2. Read the notebook and attempt the assessments in it.
-3. What other type of methods can you find online to impute missing data? Check out this [webpage](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779) for some ideas.

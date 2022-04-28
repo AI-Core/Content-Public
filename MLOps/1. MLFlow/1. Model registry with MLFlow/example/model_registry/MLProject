@@ -1,7 +1,0 @@
-name: My Project
-conda_env: ./conda.yaml
-entry_points:
-  main:
-    command: "python train.py"
-  validate:
-    command: "python validate.py"
