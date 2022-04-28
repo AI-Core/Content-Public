@@ -1,0 +1,75 @@
+- [ASK] what do i mean by deployment?
+	- i mean putting a product into real users hands
+
+- examples
+	- giving someone an insurance quote through an app based on a photo of their car and some tabular features
+		- [ASK] someone to explain how this would be deployed
+		- real time or batch?
+		- trivial way to deploy:
+			- save the model on the app and make predictions
+		- this poses several problems
+			- memory constraints
+			- compute constrains
+			- difficulty updating the model
+			- security constraints
+				- all users have access to your model and could reverse engineer it
+			- no logging of usage, data or errors
+		- better way to deploy
+			- create an API which runs on the cloud
+			- data would be sent to an API route
+			- the API routes would trigger python code to run and return a response
+		- how might this be integrated into a wider system?
+			- requests stored in a database 
+			- images stored in a data lake
+			- logging of inputs and outputs as well as errors
+			- error alerting to developer teams
+			- user login
+				- storing previous quotes
+				- leveraging existing user data like # years "no-claims"
+		- security concerns
+			- throttling
+				- cloud compute is expensive!
+				- might prevent other users from getting responses
+			- which urls are requests to this endpoint allowed to be made from?
+				- cross origin resource sharing
+			- log in required or not?
+	- pricing all of your 2000000 products for the next quarter of the year
+		- real time or batch?
+			- batch
+			- trivial way to deploy
+				- get all the data in a dataset
+				- create a python script which passes each product example through your model
+				- save each price in a CSV
+		- edge or cloud?
+			- cloud
+		- other constraints and considerations?
+			- cloud compute cost
+				- probably want a big machine
+			- how can you distribute the job
+	- robot on a countryside farm detecting whether a plant is ripe or not
+		- real time or batch?
+			- real time
+		- edge or cloud?
+			- edge
+<!-- FELT LIKE A WASTE OF TIME SO DIDNT DO  -->
+<!-- - go around the room and ask each person to explain how they think that their last project would have been deployed into production
+	- how would this be put into peoples' hands?
+	- what are the design requirements of this product?
+		- latency
+		- memory
+	- real time or batch processing?
+	- edge or cloud?
+	- how would it be integrated into a wider system? -->
+- in general, there are two major ways which models are used
+	- API
+	- batch process
+	- other less common options include deploying on edge (mobile inference or on another edge device)
+- the first stage of our deployment journey is going to focus on getting something working, and that's going to be what we call ML engineering
+	- we'll start today by building an API locally, containerising it, and then deploying it on the cloud
+	- then we'll look at monitoring it
+	- then we'll do the same thing using managed cloud services to give another approach with different cost/complexity tradeoffs
+		- we'll look at AWS API gateway, AWS lambda, AWS cloudwatch and AWS sagemaker
+	- we'll build up to architecting a complete AI system on AWS
+	- then we'll see how to define the entire stack as code using AWS cloudformation and set up a CI/CD pipeline for automated deployment
+	- after that we'll look at testing our stack
+	<!-- - finally we'll cover a tool called MLFlow for registering our models -->

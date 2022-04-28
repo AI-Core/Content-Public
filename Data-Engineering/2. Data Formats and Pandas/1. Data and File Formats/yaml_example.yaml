@@ -1,0 +1,14 @@
+Person:
+    - name: Ivan
+      surname: 'Ying'
+      role: "Instructor"
+      IQ: 0
+    - name: Not Ivan
+      surname: 'Gniy'
+      role: "Doppelganger"
+      IQ: 150
+Animals:
+    - Cat
+    - Dog
+    - Shoebill
+    - Kakapo
