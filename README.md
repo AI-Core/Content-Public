@@ -7,9 +7,8 @@
 
 ### **Module: 1. Building APIs**
 
-1. Routing and Pydantic Model
 2. Efficient FastAPI
-# Coverage of notebooks: 85.0%
+# Coverage of notebooks: 82.0%
 # Lessons without notebooks: 
 
 
@@ -18,8 +17,18 @@
 
 ### **Module: 0. The Command Line**
 
-1. File Manipulation
-2. A deeper understanding of the terminal
+0. What is the command line
+1. Running terminal commands
+2. The in-Portal Terminal
+3. Editing files with nano
+4. Running Python files from the terminal
+6. File Manipulation
+7. A deeper understanding of the terminal
+
+### **Module: 2. Python programming**
+
+10. Calling Python functions
+15. Variable attributes
 
 ### **Module: 3. File types**
 
@@ -77,7 +86,7 @@
 0. What are Convolutional Neural Networks
 1. The Convolution Operation
 2. Building Convolutional Networks in PyTorch
-# Coverage of videos: 55.00000000000001%
+# Coverage of videos: 56.99999999999999%
 # Lessons without videos: 
 
 
@@ -94,9 +103,9 @@
 3. Numbers
 4. Strings
 5. Booleans
-15. Lambda Functions
-16. Generators
-17. Decorators
+17. Lambda Functions
+18. Generators
+19. Decorators
 
 ## **Unit: Data-Engineering**
 
