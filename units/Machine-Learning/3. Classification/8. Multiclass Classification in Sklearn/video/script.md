@@ -1,0 +1,26 @@
+# Multiclass Classification
+
+- The logistic regression model can be generalized to support multiple classes directly
+- This means that instead of predicting a single class, we can predict multiple classes
+- This is called multiclass classification
+  - So, while in binary classification we have only two possible outputs
+  - In multiclass we have more than two possibilities
+    - For example, if we wanted to predict whether a patient has a cancer or not, we could have two possible outputs: yes or no, so we are dealing with binary classification
+    - However, if we wanted to predict what kind of cancer a patient has, we could have more than two possible outputs: cancer type 1, cancer type 2, cancer type 3, etc. So we are dealing with multiclass classification
+  - Be careful! Multiclass is not the same as multilabel
+    - In multilabel, we can have more than 1 label in the output
+    - So, for example, if we wanted to predict what type of diabetes a patient has, we could have more than one label in the output
+  - We calculate the confidence that, for each input, the output belongs to a certain class
+    - For each class, we obtain a logit, and the index corresponding to the maximum value is the prediction
+  - This is known as argmax
+- However, it is better to use softmax:
+  - The vector can be interpreted as a probability distribution
+  - The values don't change abruptly, so it can be differentiated
+- **`[Explain stable softmax]`**
+  - For large values, the exponentials can overflow
+  - As long as we substract the same term to each item in the vector, the output of the softmax value is the same
+  - So we can substract the maximum of the array and calculate the softmax
+- **`[Explain the concept of One Hot Encoding]`**
+  - We can transform the output into an array of zeros and ones
+  - We can also transform a categorical column in the input, but careful with the correlation
+- The loss function for multiclass classification is a generalization of BCE

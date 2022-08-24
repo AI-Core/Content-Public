@@ -1,0 +1,18 @@
+version: '2.2'
+
+networks:
+  my-network:
+    driver: bridge
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - $PWD/python_config:/etc/prometheus
+    ports:
+      - 9090:9090
+
+
+  python:
+    build: .
+    image: custom_python_metric
