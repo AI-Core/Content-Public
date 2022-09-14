@@ -1,7 +1,0 @@
-- so by now you should be familiar with some of the most common file types
-- amongst other things, you should know that
-- csv files represent tabular data
-- JSON represents key value pairs and is a standard format for sharing data across the internet
-- YAML is a superset of JSON
-- you know that some of these are structured and others unstructured
-- there are loads of other file types out there, but if you understand these, then you can understand the rest

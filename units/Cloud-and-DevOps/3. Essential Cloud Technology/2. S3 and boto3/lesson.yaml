@@ -1,0 +1,6 @@
+id: f0379838-450b-4d9e-8cf2-4b9178abe37e
+description: Use AWS S3 to store filesystem data on the cloud and learn how to connect to it using the AWS Python SDK, boto3.
+video_url: https://youtube.com/embed/lZWc6fURvic
+prerequisites:
+  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9
+  - 1e915112-889d-428b-905b-b8cf4bdce0bf

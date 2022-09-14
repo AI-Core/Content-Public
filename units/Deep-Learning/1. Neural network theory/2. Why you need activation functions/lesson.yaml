@@ -1,0 +1,4 @@
+id: 2a5f36fb-5bba-42c6-9da0-57ed19d2a834
+description: Without activation functions, neural networks don't work. Find out why
+prerequisites:
+  - e38c7147-ba61-4ff4-867e-bd2284bdd3ca

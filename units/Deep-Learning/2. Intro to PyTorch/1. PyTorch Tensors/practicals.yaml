@@ -1,0 +1,20 @@
+- id: 658d97fc-5551-49b5-8313-0ef523af3cd2
+  name: Create a random torch tensor of size 4 x 2 x 3
+  description: |
+    Define a variable called `my_tensor` with this size
+
+    Print it's shape
+- id: 59e3036c-7eb7-42b6-861b-58fdf767833b
+  name: Float tensor to double tensor
+  description: |
+    Define a tensor called `my_tensor` from one that contains floating point numbers to one that contains double precision floating point numbers
+- id: f4e39500-1466-4a2d-a9e8-6c1b9bdc4d94
+  name: Tensor arithmetic
+  description: |
+    Create two tensors called `a` and `b`, then perform the following arithmetic on them.
+
+    Divide `a` by `b` and store the result in a variable called `div`
+
+    Multiply `a` by `b` and store the result in a variable called `mul`
+
+    Add `a` by `b` and store the result in a variable called `add`
