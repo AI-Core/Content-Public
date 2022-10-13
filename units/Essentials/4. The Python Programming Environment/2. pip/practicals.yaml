@@ -1,8 +1,8 @@
-- name: Install a package with the `pip` command
+- name: Install a Package with the `pip` Command
   id: dce314fd-229d-4604-9ff2-3beb085b413f
   description: |+
     You will use `pip` to install the `requests` library. This is a popular Python library that is used to make HTTP requests.
-    
+
     1. In your desktop directory, create a directory called `pip-practicals`
     2. Open the new directory in VSCode
     3. Open the VSCode terminal
@@ -12,10 +12,10 @@
     7. Run `pip install requests==` command to see a list of all available versions of the Requests library. Note that running this command will give you a "No matching distribution found for requests==" error, however, the available verions of the library will be displayed with the error message.
     8. Install an earlier version of the library by running `pip install requests==2.27.1`
     9. Check the version installed by running `pip list` command. Note the current version.
-    
 
 
-- name: Upgrade and Uninstall a package using `pip`
+
+- name: Upgrade and Uninstall a Package Using `pip`
   id: 72625d37-c5ab-46d0-8a6e-be08f674da36
   description: |+
     You will use `pip` to upgrade the version of the Requests library that was previously installed.
@@ -33,4 +33,4 @@
       4. `beautifulsoup4`
       5. `tqdm`
       Extra points for you if you find out what each of these libraries is used for!
-    
+
