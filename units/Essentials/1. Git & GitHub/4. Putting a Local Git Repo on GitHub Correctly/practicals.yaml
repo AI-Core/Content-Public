@@ -1,0 +1,54 @@
+- name: Create a Remote Repo on Github
+  id: 6dce9cec-b815-41d5-9b58-c1d42b99965d
+  description: |+
+    1. Create a new repo on Github called `test-remote-repo`
+    2. Add a "README.md" file to the repo
+    3. Clone the repo using SSH 
+    4. Open your terminal and change directory to your desktop
+    5. Create a directory called `github_practicals` in your desktop directory
+    6. Clone the repo into that directory
+    7. Open the directory in VSCode and check that the folder and files are organised as you expected
+    
+- name: Make Changes to the Repo
+  id: 496812c1-8033-4bb0-9535-f605351114f7
+  description: |+
+    1. On VSCode, open a `README.md` file in a Git repo
+    2. Type "This is a test repo" in the file and save it
+    3. Add the recent changes Git's staging area
+    4. Commit the staged changes with a message saying "Adds text to README".
+    5. Push the changes you made on your local repository to the remote repository
+    6. Navigate to GitHub and open the `README.md` file on GitHub. You should see "This is a test repo" in the file on GitHub.
+    7. Go back to the `README.md` file on VSCode and make more changes
+    8. Add the new changes to Git's staging area, commit the staged changes and push to GitHub. 
+    
+- name: Create a Local Git Repo 
+  id: e9bce1ad-31f1-4cd7-82b3-5cc9a0e0d0f8
+  description: |+
+    1. Create a new directory in a Git repo
+    2. Open the new directory in VSCode
+    3. Create a `test.py` in the new directory directory
+    4. In the `test.py` file, print "Python is fun!". Save the file.
+    5. Add the changes to Git staging area
+    6. Commit the staged changes
+    7. Navigate to Github and set up a new repo called `More-Git-Experiments`
+    8. Copy the URL of the newly created repo
+    9. Add the newly created remote repo to your local Git using the `git remote add origin [remote_repo_url]` command
+    10. Push the changes to GitHub
+    
+- name: Create and Merge Branches 
+  id: fe62fe63-8fed-4fda-ab02-c212e8e9a301
+  description: |+
+    1. Add a new print statement to a `test.py` file
+    2. Add it to staging
+    3. Oh no that was actually a mistake! I didn't mean to stage it
+    4. Use `git reset` to reset the staging area
+    5. Make a new branch called `enhancement/1`
+    6. Make a file called `test.txt` and add a text on the first line
+    7. Switch back to your default (main) branch, depending on the name Git used to initialised your repo (don't merge the changes)
+    8. Make another branch called `enhancement/1`
+    9. Make ANOTHER file called `test.txt` (we're trying to cause a merge conflict)
+    10. Add and commit the change to this branch
+    11. Now merge `enhancement/1` into `enhancement/2` (which branch does that mean you need to run the command from?). You should get a merge conflict in that file where incompatible changes have been made
+    12. Fix the conflict by editing the file
+    13. Commit the fix
+    14. Merge the changes into your main branch

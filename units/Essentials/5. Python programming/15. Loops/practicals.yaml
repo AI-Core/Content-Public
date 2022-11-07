@@ -71,7 +71,7 @@
     3. If at some point the `budget` variable is less than 0, print the message "You have exceeded your budget by {budget}." and break the loop
 
 - id: 53cc4a0d-5f50-44e0-b3d2-e945a98a9904
-  name: Even and Odd List Comprehension
+  name: Odd and even List Comprehension
   description: |+
     1. Create a list comprehension that squares even arguments, and squares odd arguments after adding one to them
     2. Test it on the following list
