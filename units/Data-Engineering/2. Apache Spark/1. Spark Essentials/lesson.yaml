@@ -1,4 +1,4 @@
 id: 83389f7d-912b-476f-9efb-c68da65a8de5
-description: In this lesson we are going to cover the basics of Apache Spark, a distributed processing framework. We will use the pyspark library that will serve as the frontend to the Apache Spark cluster.
+description: Cover the basics of Apache Spark, a distributed processing framework, and learn to use the PySpark library to interact with an Apache Spark cluster
 prerequisites:
   - 022176d6-21f6-437a-89f8-881709114947
