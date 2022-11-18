@@ -1,9 +1,0 @@
-- id: 75c01a60-adf7-4450-849b-a6e029093007
-  name: My First Print
-  description: |+
-    1. Print out the message "This print statement was created in Python".
-
-- id: 6460edbe-a094-42f5-9184-a3f47c32ed1f
-  name: Print with Multiple Arguments
-  description: |+
-    Assign your age to a variable, then, using a single print statement with multiple parameters, print "Age:" followed by your age.

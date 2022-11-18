@@ -1,5 +1,0 @@
-id: 9de4031e-e4c8-4adc-845c-1222986607d5
-description: Learn how to give good comments and documentation to your code, which is extremely useful for other users and developers to navigate through your code. This lesson will teach you everything you need to know to add good comments and docstrings, as well as understanding the methods for giving typing hints
-prerequisites:
-  - c2db5943-3f32-4cde-b8f5-396009dbd0a5
-  - 1e915112-889d-428b-905b-b8cf4bdce0bf

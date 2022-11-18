@@ -1,8 +1,0 @@
-- id: e0dbba4e-4ac0-4a58-a4fe-c6ba6b602282
-  name: Creating and Opening Files
-  description: |+
-    1. Using Nano, create and open a new file called `my_movie.txt` 
-    2. Familiarize yourself with the Nano editor interface. Check out the command shortcuts at the bottom of the window
-    3. Type the name of your favorite movie into the editor
-    4. Save the file and exit
-    5. In your terminal, read the content of `my_movie.txt` using the `cat` command

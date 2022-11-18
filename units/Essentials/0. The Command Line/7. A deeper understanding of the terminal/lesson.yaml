@@ -1,6 +1,0 @@
-id: c49dbf84-1480-4ce5-a558-a07814336b6f
-description: >
-  Gain more insight into how the terminal works by understanding your dotfiles and aliases
-requires_notebook: False
-prerequisites:
-  - 643030bc-1395-4d7b-8c68-3c65b431d87a
