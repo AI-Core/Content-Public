@@ -1,4 +1,0 @@
-id: 34305d42-dddb-41c6-86b1-6b939078e526
-description: Learn how to use Pandas to interact with data stored in different file formats such as  CSV, JSON and YAML
-prerequisites:
-  - 45d60050-aef5-400b-a6cb-e35f35f9ace9 # Python + CSV, JSON, YAML, Images, Audio, Video
