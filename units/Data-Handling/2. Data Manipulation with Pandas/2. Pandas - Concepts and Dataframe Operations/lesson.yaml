@@ -1,8 +1,0 @@
-description:
-  Learn how to use Pandas to implement dataframes and use various functions
-  to manipulate the dataframes.
-id: 7e5a5266-ea05-4aa6-9bbe-b8affd65e280
-video_last_updated: "2022-05-06T09:44:26.153119"
-video_url: https://www.youtube.com/embed/QQEYXHg1DtI
-prerequisites:
-  - 34305d42-dddb-41c6-86b1-6b939078e526 # Pandas - File Formats
