@@ -10,7 +10,7 @@
   name: Different Variable Types
   description: |+
     Define the the following variables `num = 23`, `text_num = “57”` and `decimal_num = 98.3`
-    1. Print the types of each variable (hint: use a type comversion function)
+    1. Print the types of each variable (hint: use a type conversion function)
     2. What is the sum of your variables? What datatype is the sum?
 
 - id: c6a79b2f-55b0-4a33-b6ee-201f89243b8e
@@ -47,11 +47,11 @@
   name: Calculate a Groups Shopping Bills
   description: |+
     1. How much would it cost for 5 people if each person needs:
-       - A pack of tomatoes
-       - 3 washing sponges
-       - A litre of juice
-       - 20m of foil
-       - 180g sugar
+       - A pack of tomatoes (Tomatoes cost 87p for a pack of 6)
+       - 3 washing sponges (cost 29p for a pack of 10)
+       - A litre of juice (Juice is £1.89 per 1.5l bottle)
+       - 20m of foil (Foil is £1.29 per 30m roll)
+       - 180g sugar (500g sugar costs £1.09)
     2. Assign the value to total
        - Provide your answer as a printed variable called total.
     3. These prices do not include VAT. Calculate the VAT on the total, assuming that VAT is 20%.
