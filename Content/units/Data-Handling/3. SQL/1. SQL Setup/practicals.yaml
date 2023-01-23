@@ -1,0 +1,6 @@
+- id: 19c451ce-4e76-487e-81ef-53789cb390bc
+  name: Exploring Pagila
+  description: |
+    Explore the pagila database through pgadmin
+    - What are the different tables it contains?
+    - What are the different columns in each table and what type of data do they contain?

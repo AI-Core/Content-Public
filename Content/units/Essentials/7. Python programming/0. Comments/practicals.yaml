@@ -1,0 +1,13 @@
+- id: 37946c85-0cd7-47a2-b652-a976b9a2da74
+  name: Create a Comment
+  description: |+
+    1. Create a python file called "comments.py"
+    2. Add a comment to the file that says "This is a comment"
+
+- id: ba796ea0-1c0c-41a0-867a-bff2cb3254b7
+  name: Run a File with a Comment
+  description: |+
+    1. Create a python file called "comments_2.py"
+    2. Add a comment to the file that says "This is a comment"
+    3. Run the file
+    4. Did something happen?

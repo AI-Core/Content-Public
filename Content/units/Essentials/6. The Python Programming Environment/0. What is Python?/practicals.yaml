@@ -1,0 +1,25 @@
+- description: |+
+    1. Use the print function to print "Hello World" in Python.
+
+  id: 37c0f26c-344e-40ac-8c39-cbf3c35dad9d
+  name: Printing "Hello World"
+
+
+- description: |+
+    1. Create a variable and assign it a value, then use the type() function to determine the data type of the value.
+
+  id: d3a70bd2-2d7f-4630-8746-7a2dc8aa2d05
+  name: Variables and Data Types
+
+
+- description: |+
+    1. Create a for loop that prints out all numbers from 1 to 10.
+
+  id: dc941f59-b847-4416-8ceb-ac4f460b1e0d
+  name: For Loops
+
+- description: |+
+    1. Create a function that takes two numbers as parameters and returns the sum of those numbers.
+    
+  id: b5d242fa-f939-40b1-b06c-b8270c520e2a
+  name: Functions

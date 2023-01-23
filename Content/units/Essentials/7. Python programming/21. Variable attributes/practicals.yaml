@@ -1,0 +1,23 @@
+- id: 35995a9e-8d68-48e4-ba76-233f85130cfb
+  name: When Will the Car Stop?
+  description: |+
+    1. Define a class called `Car` that has a `driven_distance` attribute that is initialized to 0
+    2. Inside the class, define a method called `drive` that takes a single parameter called `distance`
+    3. Inside the `drive` method, add the `distance` parameter to the `driven_distance` attribute
+    4. Every time the `drive` method is called, print out the `driven_distance` attribute
+    4. Create an instance of the `Car` class called `my_car`
+    5. Create an infinite `while` loop that runs until the `my_car` instance's `driven_distance` attribute is greater than or equal to 100
+    6. Inside the while loop, call the `my_car` instance's `drive` method with a random number between 1 and 10 as the argument
+    7. The output should show the `driven_distance` attribute increasing by a random number between 1 and 10 every time the `drive` method is called
+    8. When the `while` loop is finished, print out the `driven_distance` attribute to show that it is greater than or equal to 100
+
+- id: c94af5cb-2d2f-4359-b6da-f072b63acc04
+  name: Compute the Magnitude of a Vector
+  description: |+
+    1. Create a class called `Vector`
+    2. Define its initialiser so that it takes in a list of numbers as an argument. The first argument should be stored in an attribute called `x`, the second in an attribute called `y`.
+    3. Define a method called `get_magnitude` that `returns` the magnitude of the vector.
+      - The magnitude of a vector is the square root of the sum of the squares of its components.
+      - For example, the magnitude of the vector `(3, 4)` is `5` --> `(3**2 + 4**2) ** 0.5`.
+    4. In the initialiser, call the `get_magnitude` method and store the result in an attribute called `magnitude`. Remember to use the `self` keyword for attributes and methods.
+    5. Create an instance of the `Vector` class called `my_vector` and pass in a list of two numbers as an argument

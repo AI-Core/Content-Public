@@ -1,0 +1,12 @@
+- description: |+ 
+    1. Create a NumPy 1D-array with 10 elements, then reshape the array into a 2x5 matrix.
+    2. Create a second NumPy array with 5 elements, and join it to the first array using the `concatenate` function.
+
+  id: 150b0686-8c44-42e8-a090-abfe84562fce
+  name: Reshaping a NumPy Array
+
+
+- description: |+ 
+    1. Create two arrays of size (2,3) and broadcast them together to create an array of size (2,3,3).
+  id: c047804c-5228-40ee-bc8e-951445b160ad
+  name: Broadcasting with Numpy Arrays

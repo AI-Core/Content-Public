@@ -1,54 +1,108 @@
-- name: Create a Remote Repo on GitHub
-  id: 6dce9cec-b815-41d5-9b58-c1d42b99965d
-  description: |+
-    1. Create a new repo on GitHub called `My-Test-Remote-Repo`
+- description: '1. Create a new repo on GitHub called `My-Test-Remote-Repo`
+
     2. Add a `README.md` file to the repo
+
     3. Clone the repo locally
-    4. Check out the `README.md` file in VSCode and assert that it looks the same as it does on GitHub in the remote repo
+
+    4. Check out the `README.md` file in VSCode and assert that it looks the same as it does on GitHub in the remote repo.
+
+    '
+  id: 6dce9cec-b815-41d5-9b58-c1d42b99965d
+  name: Create a Remote Repo on GitHub
 
 
-- name: Make Changes to a Repo
-  id: 496812c1-8033-4bb0-9535-f605351114f7
-  description: |+
-    1. On VSCode, open the `README.md` file of a repo you've created and cloned from GitHub
-    2. Type "This is a test repo" in the `README.md` file and save it
+- description: |+
+    1. On VSCode, open the `README.md` file of a repo you've created and cloned from GitHub. 
+    2. Type "This is a test repo" in the `README.md` file and save it. 
     3. Add the recent changes to staging area using `git add` followed by the filename
     4. Commit the staged changes with a message saying "Adds text to README"
-    5. Push the changes you made on your local repository to the remote repository
+    5. Push the changes you made on your local repository to the remote repository.
     6. Navigate to GitHub and open the `README.md` file. You should see "This is a test repo" in the file on GitHub.
     7. Go back to the `README.md` file on VSCode, add more lines of text.
-    8. Add the new changes to staging, commit them and push to GitHub. 
-    
+    8. Add the new changes to staging, commit them and push to GitHub.
 
-- name: Create a Local Git Repo 
+  id: 496812c1-8033-4bb0-9535-f605351114f7
+  name: Make Changes to a Repo
+
+
+- description: |+
+    1. Create a new directory called `Locally-Created-Test-Repo` and move into it.
+    2. Create a file called `test.py` in the new repo directory. 
+    3. In the `test.py` file, print "Python is fun!" and save the file.
+    4. Add the changes to staging\n5. Commit the staged changes.
+    5. Navigate to GitHub and set up a new repo called `Remote-Repo. 
+    6. Copy the URL of the newly created repo.
+    7. Add the newly created remote repo to your local repo using the `git remote add origin` command followed by the remote URL. 
+    8. Push the changes to GitHub.
+
   id: e9bce1ad-31f1-4cd7-82b3-5cc9a0e0d0f8
-  description: |+
-    1. Create a new directory called `Locally-Created-Test-Repo` and move into it
-    2. Create a file called `test.py` in the new repo directory
-    3. In the `test.py` file, print "Python is fun!" and save the file
-    4. Add the changes to staging
-    5. Commit the staged changes
-    6. Navigate to GitHub and set up a new repo called `Remote-Repo`
-    7. Copy the URL of the newly created repo
-    8. Add the newly created remote repo to your local repo using the `git remote add origin` command followed by the remote URL 
-    9. Push the changes to GitHub 
+  name: Create a Local Git Repo
 
 
-- name: Create and Merge Branches 
-  id: fe62fe63-8fed-4fda-ab02-c212e8e9a301
-  description: |+
-    1. Add a new `print` statement to the `test.py` file
+- description: '1. Add a new `print` statement to the `test.py` file
+
     2. Add it to staging
-    3. Oh no that was actually a mistake! I didn't mean for you to actually stage it on this branch, now we need to reset our staging area.
+
+    3. Oh no that was actually a mistake! I didn''t mean for you to actually stage it on this branch, now we need to reset our staging area.
+
     4. Use `git reset` to reset the staging area
+
     5. Make a new branch called `important-feature-branch`
+
     6. Make a file called `test.txt` and add text on the first line
-    7. Switch back to `main` (don't merge the changes yet)
+
+    7. Switch back to `main` (don''t merge the changes yet)
+
     8. Make another branch called `another-feature-branch` and move onto that branch using `git checkout another-feature-branch`
-    9. Make ANOTHER different file called `test.txt` (we're trying to cause a merge conflict)
+
+    9. Make ANOTHER different file called `test.txt` (we''re trying to cause a merge conflict)
+
     10. Add and commit the change to this branch
+
     11. Now merge `important-feature-branch` into `another-feature-branch` (which branch does that mean you need to run the command from?). You should get a merge conflict in that file where incompatible changes have been made
-    12. Fix the conflict by editing the file and removing the chevrons (<<<<<<<<) and the content that you want to delete. You can keep both versions if you like, but you'll still need to remove the chevrons.
+
+    12. Fix the conflict by editing the file and removing the chevrons (<<<<<<<<) and the content that you want to delete. You can keep both versions if you like, but you''ll still need to remove the chevrons.
+
     13. Commit the fix
+
     14. Merge the changes into the main branch
 
+
+    '
+  id: fe62fe63-8fed-4fda-ab02-c212e8e9a301
+  name: Create and Merge Branches
+
+
+- description: |+
+    1. Sign up for a GitHub account and explore the features of the website.
+
+  id: 07e8f0a3-cc08-4067-b4a0-c0612da675b1
+  name: Creating a GitHub Account
+
+
+- description: |+
+    1. Find an open source repository on GitHub and fork it to your own account.
+
+  id: 0f7d2ead-3934-4010-8725-2dd3535f2dae
+  name: Forking a Repository
+
+
+- description: |+
+    1. Clone a repository from your own account to your local machine using Git.
+
+  id: a597aa8f-7f2d-4423-816f-0fb9471848fa
+  name: Cloning a Repository
+
+
+- description: |+ 
+    1. Make changes to a forked repository and submit a pull request back to the original repository.
+
+  id: ed3d3615-7e66-4b32-9cb8-a4b17826c846
+  name: Submitting a Pull Request
+
+
+- description: |+
+    1. Create multiple branches in your own repository and manage them using Git commands.
+
+  id: c6010878-e2e6-42ea-8029-7ea80e8206b3
+  name: Managing Branches in GitHub

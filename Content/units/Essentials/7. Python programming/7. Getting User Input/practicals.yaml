@@ -1,0 +1,29 @@
+- id: dbe23e9b-fa18-4135-9610-33635f54f45b
+  name: Ask the User for Input
+  description: |+
+    1. Ask the user for their name
+    2. Ask the user for their age
+
+- id: 3d33fe8b-bd2f-49d5-92b3-5f1f5aab8b11
+  name: Ask the User for Input and Store It in a Variable
+  description: |+
+    1. Ask the user for their name and store it in a variable called `name`
+    2. Ask the user for their age and store it in a variable called `age`
+    3. Print out the message `"Hello, my name is {name} and I am {age} years old"`
+
+- id: ccf7fb25-a11c-4e8a-8afa-48ee335fb0a3
+  name: Input Type
+  description: |+
+    1. Ask the user for their name and store it in a variable called `name`
+    2. What type is `name`?
+    3. Ask the user for their age and store it in a variable called `age`
+    4. What type is `age`? Is it a string or a number?
+    5. You can convert a string to a number using the `int(string)` function. Try it out.
+
+- id: 45570259-a814-4ccb-83af-d426c4ad9299
+  name: From Fahrenheit to Celsius
+  description: |+
+    1. Ask the user for the temperature in Fahrenheit and store it in a variable called `fahrenheit`
+    2. Convert the temperature to Celsius and store it in a variable called `celsius`
+    3. Print out the message `"The temperature in Celsius is {celsius}"`
+    4. What is the formula for converting from Fahrenheit to Celsius?

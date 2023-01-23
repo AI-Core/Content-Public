@@ -1,0 +1,33 @@
+- description: |+
+    1. Create a list of 5 tuples, where each tuple contains a name and a number. Then, use the `zip` function to combine the two lists into a single list of tuples.
+
+  id: 832ac530-b2fd-4d35-9c8d-ee5db134847d
+  name: Working with Lists
+
+
+- description: |+
+    1. Create a dictionary with 5 key-value pairs. Then, use the `update` method to add 3 more key-value pairs to the dictionary.
+  
+  id: e6a49e96-7668-49c1-b43e-8aa7b408c3b6
+  name: Manipulating Dictionaries
+
+
+- description: |+
+    1. Create a set of 10 numbers. Then, use a set comprehension to create a new set that contains only the even numbers from the original set.
+  
+  id: 0d6a7d2a-4a76-4e57-840d-637a674f43c6
+  name: Filtering with Sets
+
+
+- description: |+
+    1. Create a tuple of 5 elements. Then, use a for loop to iterate through the tuple and print out each element in the tuple.
+  
+  id: d5481ce5-f530-45f2-8ed8-f194f93afd87
+  name: Iterating Through Tuples
+
+
+- description: |+ 
+    1. Create a list of 3 dictionaries, where each dictionary contains 3 key-value pairs. Then, use nested for loops to iterate through each dictionary and print out all of the values in each dictionary.
+  
+  id: ef2d703b-761a-4287-99b3-70fbac5e06a3
+  name: Nested Data Structures

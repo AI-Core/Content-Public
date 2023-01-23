@@ -1,0 +1,45 @@
+- id: a2fca72c-fd8a-4f7a-8127-2f726b6b1603
+  name:  Initialising a Dictionary
+  description: |+
+    1. Create a variable called `my_dict` and assign it the value `{}`
+    2. Print the type of `my_dict`
+    3. Is it a dictionary or a set? 
+    4. Now, create a variable called `my_var` and assign it the value `{4}`
+    5. Print the type of `my_var`
+    6. Is it a dictionary or a set?
+    8. Finally, create a variable called `my_var_2` and assign it the value `{4: 5}`
+    9. Print the type of `my_var_2`
+    10. Is it a dictionary or a set?
+
+- id: 28095a28-576f-4683-9d9a-886d43d3f583
+  name: Accessing Items in a Dictionary
+  description: |+
+    1. Create a variable called `my_dict` and assign it the value `{"key_1": 1, "key_2": 2}`
+    2. Print the value of `key_1`
+    3. Print the value of `key_2`
+    4. What happens if you try to print the value of `key_3`?
+    5. Print the keys of `my_dict`. Tip: Use the `keys()` method
+    6. Print the values of `my_dict`. Tip: Use the `values()` method
+    7. Print the items of `my_dict` and assign it to a variable called `my_items`. Tip: Use the `items()` method
+    8. Print the type of `my_items`. What is it? A list or a tuple?
+
+- id: c964189b-9d49-4c6b-a27d-1d8c13647f59
+  name: Adding Items to a Dictionary
+  description: |+
+    1. Create a variable called `my_dict` and assign it the value `{"key_1": 1, "key_2": 2}`
+    2. Add a new key called `key_3` with the value `3`
+
+- id: ad2cde9e-a56f-4a25-a1bd-e059f0ff1700
+  name: Updating Items in a Dictionary
+  description: |+
+    1. Create a variable called `my_dict` and assign it the value `{"key_1": 1, "key_2": 2}`
+    2. Update the value of `key_1` to `3`
+    3. Update the value of `key_2` to `4`
+    4. Print the value of `my_dict`
+
+- id: 5fc67e29-3d5b-43ec-bba5-ab808f62ee69
+  name: Removing Items from a Dictionary
+  description: |+
+    1. Create a variable called `my_dict` and assign it the value `{"key_1": 1, "key_2": 2}`
+    2. Remove `key_1` from `my_dict`
+    3. Print the value of `my_dict`

@@ -1,0 +1,19 @@
+- description: |+
+    1. Create a folder called `myfolder_1` inside your current working directory. 
+    2. Change directory into it using the `cd` command and create a second folder inside it called `myfolder_2`
+    3. Make a text file called `my_text.txt` inside `myfolder_2`.
+    4. Copy `my_text.txt` into the `myfolder_1` directory using the `cp` command
+    5. Check that the file is in the correct place using the `ls` command.
+    6. Using the `rm` command to remove the folder `myfolder_1` and all its contents. Hint: you will need to add a flag to the command.
+
+  id: 8e1bf266-f12f-4729-82fd-89161ffee9f6
+  name: Remove a File
+
+  
+- description: |+
+    1. Using the `alias` command, create an alias for the `ls` command so that it prints out all of the files in the current directory in reverse alphabetical order.
+    2. Create three text files: `text1.txt`, `text3.txt`, `text2.txt`. Create them in the order listed here.
+    3.  Write some text in `text2.txt`.
+    3. Using the alias for ls you just made, and the appropriate flags, sort them by (a) name , (b) date created, (c) size.
+  id: c71637a0-68d6-4d25-abe6-1c0f89edbfe9
+  name: Create an Alias

@@ -1,0 +1,30 @@
+- id: fb1bf0fa-5fd5-4f8a-ae8d-0ae0f6f7760e
+  name: Check if an Element Is in a List
+  description: |+
+    1. Create a list called `my_list` and add the following elements to it: `1`, `2`, `3`, `4`, `5`
+    2. Check if `1` is in `my_list`. The result should be a boolean.
+    3. Check if `6` is in `my_list`
+    4. Check if `7` is NOT in `my_list`
+
+
+- id: bca051f4-ae48-46b1-89dd-3701913a781b
+  name: Check if Two Numbers and Two Strings Are Equal
+  description: |+
+    1. Create two variables called `my_number_1` and `my_number_2` and assign them the values `1` and `2` respectively
+    2. Check if `my_number_1` is equal to `my_number_2` using the `==` operator. The result should be a boolean.
+    3. Check if `my_number_1` and `my_number_2` are the same object using the `is` operator
+    4. Are they the same? Why or why not?
+    5. Create two lists called `my_list_1` and `my_list_2` and add the following elements to them: `1`, `2`, `3`, `4`, `5`
+    6. Check if `my_list_1` is equal to `my_list_2` using the `==` operator. The result should be a boolean.
+    7. Check if `my_list_1` and `my_list_2` are the same object using the `is` operator
+    8. Are they the same? Why or why not?
+
+
+- id: c2f50734-86f1-4349-9567-7adfd0d1fe68
+  name: Check if a Dictionary Is Empty
+  description: |+
+    1. Create a variable called `my_dict` and assign it the value `{}`
+    2. Check if `my_dict` is empty. The result should be a boolean.
+    3. Create a variable called `my_dict_2` and assign it the value `{"key_1": 1, "key_2": 2}`
+    4. Check if `my_dict_2` is empty
+

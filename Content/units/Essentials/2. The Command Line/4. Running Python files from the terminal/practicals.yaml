@@ -1,0 +1,27 @@
+- description: |+
+    1. Create a Python file that prints "Hello World", and run it from the terminal.
+    
+  id: 9b0f20ad-474a-4616-8dac-c88bf85e6221
+  name: Running a Python File
+
+
+- description: |+
+    1. Create a Python script that takes in two command-line arguments and adds them together. Run it from the terminal.
+
+  id: 02787e60-5c0e-42b8-b882-79b44a3f58d4
+  name: Executing a Python Script with Arguments
+
+
+- description: |+
+    1. Create a file called "example_text.txt" and add some text to it. Use the cat command to read out the text, and pipe the text into a Python script as an input variable. The python script should return the number of characters in the text input.
+  
+  id: b2ceeb32-3b11-426f-a887-593ebe513007
+  name: Piping Input to a Python Script
+
+
+- description: |+
+    1. Set environment variables for a Python script and run it from the terminal.
+
+  id: be12ac2b-0f61-4825-98ea-98c1c9ecd523
+  name: Setting Environment Variables for a Python Script
+

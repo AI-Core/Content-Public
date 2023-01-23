@@ -1,0 +1,27 @@
+- description: |+
+    1. Use the 'git clone' command to clone a repository from GitHub.
+
+  id: 2c39b9c9-c8f7-4ec4-bf81-e2fcc999c3ea
+  name: Cloning a Repository
+
+
+- description: |+
+    1. Make changes to a file, stage the changes using git add, and use the 'git status' command to track changes to the cloned repository.
+  
+  id: bc18d340-807b-4ada-926c-2d718b268e51
+  name: Tracking Changes with Git
+
+
+- description: |+ 
+    1. Make a change to the README.md file in the remote repository, and use the 'git pull' command to pull the update from the remote repository to the local repository.
+  
+  id: 9c412e5c-886b-4965-af7d-be29ed552b31
+  name: Pulling Updates from a Remote Repo
+
+
+- description: |+
+    1. Use the 'git commit' command to commit some changes with a message in your local repository, then push it to the remote repository.
+  
+  id: c33b9fdd-14a3-41e4-8479-19a4a49f44ff
+  name: Making Commits with Git
+

@@ -1,0 +1,36 @@
+- name: Reading Data from the Pagila Database
+  id: 040ac674-2d6c-469d-95a0-bade51cd9024
+  description: |+
+    1. Return all the information on all the actors in the database
+    2. Return the titles, year of film release, description and length of all films in the database
+    3. Return all info of 30 customers
+    4. Return the first name, last name and email addresses of 30 customers
+    5. Return all information about the highest payments made
+    6. Return the first 10 payments the rental company has made
+    7. Return the names of the 15 shortest films
+    8. Write a query which:
+      - Returns 100 films, ordered by title first, and rental rate (descending) second
+      - Returns 100 films, ordered by rental rate (descending) first, and title second
+      - What's the difference in the results when comparing the two?
+
+- name: Using Simple Conditional Statements to Filter the Data
+  id: aaff0f95-4083-4a77-8d87-98403d243da4
+  description: |+
+    1. Return 10 films who's lengths are under 120 mins
+    2. Return the 10 longest films who's rating are G (Hint: to search by string we need to wrap our query in SINGLE quotes (e.g. 'G'))
+    3. Return all transactions where payment has been above $10
+    4. Return the (replacement) cost per minute of every movie
+    5. Return the top 10 most expensive films to rent, based on the rental rate per hour of the movie
+
+- name: Applying Filters to SQL Queries
+  id: 61892ff0-9cf9-4984-9ca3-f2fe5f0eef53
+  description: |+
+    1. Find all the cities which begin with “al”
+    2. Find all the actors whose first name doesn't end in “EN”
+    3. Find all the actors whose first name doesn't end in “EN” and have an ID greater than 100
+    4. Find all the actors whose first name doesn't end in “EN”, have an ID greater than 100, and have a last name that ends in “D”. Order the results by the last name in descending order.
+    5. Return only the address of addresses in either the Alberta or QLD district
+    6. Find actors who's first name begins with “MI” or last name ends with “ING”
+    7. What's the difference in results if you use an AND instead of an OR?
+    8. Return film titles and descriptions of films whose lengths are between 80 and 100 minutes,
+    9. Return film titles and descriptions of films whose lengths are between 80 and 100 minutes. Further filter these results by films which have a rental period between 5 and 7 days or have a replacement cost between $17 and $22

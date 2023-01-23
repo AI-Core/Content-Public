@@ -19,7 +19,7 @@
     5. Now, instead of initialising `surface_area` and `volume` to `None`, initialise them to the value returned by `get_surface_area` and `get_volume` respectively.
 
 
-- id: 7dde34f0-1275-42ff-90e5-0032a42b557d
+- id: 3d289cbe-8683-4a96-8028-c7a8bdd4f77c
   name: Create a `Car` Class
   description: |+
     1. Create a `Car` class
@@ -36,52 +36,22 @@
     5. Initialiase the class
     6. Call all the methods
 
-
-- id: b42b8c0d-bb7a-41d4-ac51-ac926276fa72
-  name: Magic Methods
+- id: 7dde34f0-1275-42ff-90e5-0032a42b557d
+  name: Make Calls with a `Phone` Class
   description: |+
-    1. Create a class called `Vector`
-      - Define its initialiser so that it takes in a list of numbers as an argument
-      - Create an instance of the vector
-      - Define the `__repr__` magic method to define what is printed when we print the object
-      - Define how you add two vector objects together
-      - Define how you index an item in a vector
-      - Define how to compare whether it is greater than another vector using a greater than (>) sign (use Pythagoras theorem). Use the method you defined in the question above
-
-
-- id: 96e366d3-2f6f-4c00-aa3a-a67712227756
-  name: Create a `Person` Class
-  description: |+
-    1. Create a class called Person
-    2. Define its initialiser 
-      - It must take in a `name`, a `date_of_birth` in ISO format (YYYY-MM-DD), and a list of `friends`
-      - It should initialise attributes for each of those. Be careful, don't use a default value for `friends`! This will cause problems whenever you initialise a new instance of the class. To know more about, take a look at this [link](https://stackoverflow.com/questions/19497879/using-a-empty-list-as-default-parameter-in-init-why-the-list-in-all-instanc)
-    3. Instantiate your class and test that it works before continuing - do this for every section going forward
-    4. Define the `__str__` magic method which returns a string representation of the person, detailing their name, DOB and number of friends
-    5. Define the `__gt__` magic method that defines how to use the greater than sign to compare the age of two people (hint: Compare the DOB of the two people)
-    6. Create a method called `add_friend`, which takes in another instance of the person class and adds it to this instance's friends attribute. Assume that every relationship goes both ways: this method should append each friend to the other's list, in just one call
-
-
-- id: b9b08fa2-70a5-4cf8-b24c-06bd6d927377
-  name: Create a `Shape` Class
-  description: |+
-    1. Define a class called `Shape`
-    2. Define its initialiser and initialise two attributes:
-      - `num_sides`, which is required
-      - `tesselates`, which is optional
-      - raise an error if `num_sides` is zero
-    3. Define a method called `get_info` which returns a string telling us the number of sides of the shape and whether it tesselates or not. 
-      - For now, make this function raise a `NotImplementedError` if called. 
-      - That's because this is an "abstract base class", which means it should only be used when inherited from by other classes. 
-      - I.e. there should be no instances of this generic `Shape` class
-    4. Create the following classes which inherit from `Shape`
-      - `Circle`
-      - `Triangle`
-      - `Square`
-      - `Pentagon`
-      - `Hexagon`
-    5. Make sure to remember to use the `super()` method in the initialiser of each of them to initialise the parent class
-    6. For each of them, overwrite the `get_info` function and make it return the correct info mentioned earlier. Overwriting this will prevent the `NotImplementedError` being raised.
-    7. Define the correct magic method which defines what is printed when we print an instance of the `Shape` class. It should probably just call the `get_info` method
-    8. Define the `__add__` magic method of the `Shape` class which defines how to add two instances of the `Shape` class together and returns a new `Shape` object with as many sides as the sum of the individual shapes added
+    1. Create a `Phone` class
+    2. The class takes two arguments:
+      - One called `number` (e.g. 07777777777), which has no default. This is the phone number of the phone and will be used as an attribute
+      - One called `balance`, which is an integer, which defaults to 20. This is the balance of the phone and will be used as an attribute
+    3. Create a method called `call`
+      - It takes two arguments:
+        - One called `number` (e.g. 07777777777), which has no default. This is the phone number of the person being called
+        - One called `duration`, which is an integer, which defaults to 1. This is the duration of the call in minutes
+      - Inside the method, check if the balance is greater than or equal to the duration of the call. If it is, then:
+        - Print "Calling {number} for {duration} minutes"
+        - Subtract the duration from the balance
+      - If the balance is not greater than or equal to the duration of the call, then:
+        - Print "Insufficient balance"
+    4. Create a method called `info`
+      - It prints the phone number and the balance
 

@@ -1,0 +1,11 @@
+- id: 5367c570-f0ad-4436-a3da-7f708fe81257
+  name: Add Type Annotations to a Class
+  description: |+
+    1. Download the file `temperature_example.py` from this [link](https://aicore-files.s3.amazonaws.com/Foundations/Python_Programming/temperature_example.py)
+    2. Add type annotations to the class. For example, inside the `__init__` method, add `temp_celsius: float` as the first parameter
+    3. Add type annotations to the methods.
+    4. Add the data type that each method returns. If the method doesn't return anything, add `-> None` to the end of the method definition
+    5. Create another file called `test_type_annotations.py`
+    6. Import the `Temperature` class from `temperature_example.py`
+    7. Call the `help` function on the `Temperature` class
+    8. Optional: If you are on VSCode, you can hover over the class or methods to see the type annotations, this can be very useful when debugging!

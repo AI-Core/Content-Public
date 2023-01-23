@@ -1,0 +1,11 @@
+- description: |+ 
+    1. Create a NumPy array with 5 elements of your choice.
+    2. Display the 5th element of the array
+
+  id: 965ebfb9-d5cc-4f3e-be8b-5ac3b3bce99b
+  name: Creating a NumPy Array
+
+- description: |+ 
+    1. Use the `np.random.randint` function to create a 2D array of size (3,4) with random integers between 0 and 10.
+  id: c47aa5bd-61d3-4ad3-aebd-edcb91c20f2e
+  name: Creating a 2D Array with Numpy

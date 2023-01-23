@@ -1,0 +1,22 @@
+- description: |+
+    1. Create a new local Git repository by initialising it with the `git init` command. 
+  id: 22f5deb8-84ce-4705-a43f-441be0943865
+  name: Initialising a Repository
+- description: |+
+    1. Create a new remote repository on GitHub and connect it to your local repository using the `git remote add` command. 
+  id: f49f6b4a-f8af-4894-add4-a82f77a7ceec
+  name: Creating a Remote Repository
+- description: |+
+    1. Clone an existing remote repository from GitHub to your local machine using the `git clone` command.
+  id: 2170f12d-dd60-4da8-a7b9-a498d7164521
+  name: Cloning a Repository
+- description: |+
+    1. Create a new branch in your local repository, make some edits, stage and commit them. 
+    2. Then switch back to your master branch and merge the new branch into your master branch, using the `git merge` command."
+  id: ea0b1697-1dde-41c8-a32d-22b3d259ba16
+  name: Merging Branches
+- description: |+
+    1. Create two branches in your local repository and generate a merge conflict by changing the same line of code in both branches.  
+    2. Resolve the conflict using the `git mergetool` command."
+  id: 37ec205e-a2a2-42f0-b26e-8ede311c78a5
+  name: Resolving Merge Conflicts

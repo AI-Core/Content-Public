@@ -31,8 +31,9 @@
   description: |+
     Given the following list of number plates: `["G06 WTR", "WL11 WFL", "QW68 PQR"]`
     1. Extract the last two characters of the first word, which represent the year of the car
-    2. Print the type of each of them
-    3. Convert each of these years to an integer type
+    2. So, for example, the first number plate is from "06"
+    3. Print the type of each of them
+    4. Convert each of these years to an integer type
 
 - id: 6463030e-09db-4fb5-80fb-c4c78719d6df
   name: Name Character Intersection
@@ -57,7 +58,3 @@
     5. Create a list of dictionaries, each with a key called `name`, then use a list comprehension to map that list to the names themselves by indexing the dictionaries
     6. Use the `os` module to create a nested list comprehension to list every file in the `my_lib` directory
 
-- id: 88c74ef8-676e-45af-a3fc-c849ede91107
-  name: Simple Typed Function
-  description: |+
-    Create a function that takes in a list of words and returns the total number of characters in the list, then define the type the function's inputs and outputs

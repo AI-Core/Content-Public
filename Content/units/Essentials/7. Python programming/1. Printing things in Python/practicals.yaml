@@ -6,4 +6,12 @@
 - id: 6460edbe-a094-42f5-9184-a3f47c32ed1f
   name: Print with Multiple Arguments
   description: |+
-    Assign your age to a variable, then, using a single print statement with multiple parameters, print "Age:" followed by your age.
+    1. Assign your age to a variable
+    2. Using a single print statement with multiple parameters, print "Age:" followed by your age.
+
+- id: 4e726cb0-c7c0-4358-8cde-aa8b5d528e77
+  name: Print a Comment
+  description: |+
+    1. Using the print function, print out the message "This is a comment"
+    2. Now, inside the same print function, print `# This is a comment`
+    3. What happened?

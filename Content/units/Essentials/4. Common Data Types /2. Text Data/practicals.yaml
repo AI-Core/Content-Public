@@ -1,0 +1,25 @@
+- description: |+
+    1. Create a python script that takes a string and prints the number of vowels in the string.
+
+  id: ad25e777-750c-42d9-a546-eed12a98a2da
+  name: Working with Strings
+
+
+- description: |+ 
+    1. Create python script that takes a string and replaces all occurrences of a given character with another character.
+
+  id: cd0ca448-662b-4b28-ba5f-57c381565db5
+  name: Manipulating Text Data
+
+
+- description: |+ 
+    1. Create a python script that takes a string and splits it into an array of words based on a given delimiter (eg. split on spaces).
+
+  id: 2b00fc77-1108-44fb-9eb3-4e7eb3219b5e
+  name: Splitting Text Data
+
+
+- description: |+ 
+    1. Create a script that takes two strings and finds the longest common substring between them.
+  id: f9fa3679-06d4-4878-b7af-46fcbd8dbdfa
+  name: Substring Extraction

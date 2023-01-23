@@ -1,0 +1,17 @@
+
+- description: |+ 
+    1. Create a python script that takes user input and writes it to a CSV file. You can use the `csv` pyton library.
+
+  id: 83c9f19b-599d-4c8b-b033-2359a30f3b29
+  name: Writing to CSV Files
+
+
+- description: |+ 
+    1. Create a python script that parses data from a CSV file and stores it in a dictionary using the `csv` library. 
+    Use [this](https://aicore-files.s3.amazonaws.com/Foundations/Data_Formats/Salaries.csv) example CSV.
+
+  id: 98215ced-7292-4d75-855d-2bc5f7e8fd07
+  name: Parsing CSV Data
+
+
+

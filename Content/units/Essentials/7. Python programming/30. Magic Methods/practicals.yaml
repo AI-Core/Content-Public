@@ -1,0 +1,48 @@
+- id: b42b8c0d-bb7a-41d4-ac51-ac926276fa72
+  name: Magic Methods
+  description: |+
+    1. Create a Class called `Vector`
+    2. Define its initialiser so that it takes in a list of numbers as an argument
+    3. Create an instance of the vector
+    4. Define the `__repr__` magic method to define what is printed when we print the object
+    5. Define how you add two vector objects together
+    6. Define how you index an item in a vector
+    7. Define how to compare whether it is greater than another vector using a greater than (>) sign (use Pythagoras theorem). Use the method you defined in the question above
+
+
+- id: 96e366d3-2f6f-4c00-aa3a-a67712227756
+  name: Create a `Person` Class
+  description: |+
+    1. Create a class called Person
+    2. Define its initialiser 
+      - It must take in a `name`, a `date_of_birth` in ISO format (YYYY-MM-DD), and a list of `friends`
+      - It should initialise attributes for each of those. Be careful, don't use a default value for `friends`! This will cause problems whenever you initialise a new instance of the class. To know more about, take a look at this [link](https://stackoverflow.com/questions/19497879/using-a-empty-list-as-default-parameter-in-init-why-the-list-in-all-instanc)
+    3. Instantiate your class and test that it works before continuing - do this for every section going forward
+    4. Define the `__str__` magic method which returns a string representation of the person, detailing their name, DOB and number of friends
+    5. Define the `__gt__` magic method that defines how to use the greater than sign to compare the age of two people (hint: Compare the DOB of the two people)
+    6. Create a method called `add_friend`, which takes in another instance of the person class and adds it to this instance's friends attribute. Assume that every relationship goes both ways: this method should append each friend to the other's list, in just one call
+
+
+- id: b9b08fa2-70a5-4cf8-b24c-06bd6d927377
+  name: Create a `Shape` Class
+  description: |+
+    1. Define a class called `Shape`
+    2. Define its initialiser and initialise two attributes:
+      - `num_sides`, which is required
+      - `tesselates`, which is optional
+      - raise an error if `num_sides` is zero
+    3. Define a method called `get_info` which returns a string telling us the number of sides of the shape and whether it tesselates or not. 
+      - For now, make this function raise a `NotImplementedError` if called. 
+      - That's because this is an "abstract base class", which means it should only be used when inherited from by other classes. 
+      - I.e. there should be no instances of this generic `Shape` class
+    4. Create the following classes which inherit from `Shape`
+      - `Circle`
+      - `Triangle`
+      - `Square`
+      - `Pentagon`
+      - `Hexagon`
+    5. Make sure to remember to use the `super()` method in the initialiser of each of them to initialise the parent class
+    6. For each of them, overwrite the `get_info` function and make it return the correct info mentioned earlier. Overwriting this will prevent the `NotImplementedError` being raised.
+    7. Define the correct magic method which defines what is printed when we print an instance of the `Shape` class. It should probably just call the `get_info` method
+    8. Define the `__add__` magic method of the `Shape` class which defines how to add two instances of the `Shape` class together and returns a new `Shape` object with as many sides as the sum of the individual shapes added
+

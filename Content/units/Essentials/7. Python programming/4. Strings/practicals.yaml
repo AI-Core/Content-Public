@@ -1,0 +1,24 @@
+- id: a6c1a8f2-905c-4e05-99a8-c0ded723ed5e
+  name: Printing a String
+  description: |+
+    1. Create a variable called `my_string` and assign it the value `"Hello World"`
+    2. Print the value of `my_string`
+    3. Print the type of `my_string`
+
+- id: 519ddcf8-2115-4a90-8974-9d732263d4db
+  name: Printing a String Adding New Lines and Tabs
+  description: |+
+    1. Create a variable called `my_string` and assign it the value `"Hello \nWorld"`
+    2. Print the value of `my_string`
+    3. Create a variable called `my_string` and assign it the value `"Hello \tWorld"`
+    4. Print the value of `my_string`
+    
+- id: 41545ed1-346b-4f95-b0dd-0ed79114c9bf
+  name: Printing a String with Quotes
+  description: |+
+    1. Create a variable called `my_string` and assign it the value `"Hello "World"`
+    2. Did it work?
+    3. Create a variable called `my_string` and assign it the value `"Hello 'World'"`
+    4. Did it work?
+    5. Create a variable called `my_string` and assign it the value `"Hello \"World\""`
+    6. Did it work?

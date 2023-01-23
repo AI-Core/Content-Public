@@ -117,3 +117,8 @@
     2. Write a function that takes in a string and returns `True` if it is a palindrome and `False` otherwise. This time, ignore capitalisation and punctuation.
 
     There are several ways to implement this. Some require less code, but some are more efficient; which is yours, and can you think of how to implement the other way?
+
+- id: 88c74ef8-676e-45af-a3fc-c849ede91107
+  name: Simple Typed Function
+  description: |+
+    Create a function that takes in a list of words and returns the total number of characters in the list, then define the type the function's inputs and outputs

@@ -1,0 +1,34 @@
+- id: 1170a6ea-64f1-4ddf-8c31-83178e2b9234
+  name: Run Arithmetic Operations
+  description: |+
+    1. Define a variable called `a` and assign it the value `5`
+    2. Define a variable called `b` and assign it the value `2`
+    3. Print the result of `a + b`
+    4. Print the result of `a - b`
+    5. Print the result of `a * b`
+    6. Print the result of `a / b`
+
+- id: a5b7b342-852d-437d-9186-a0d17932fdf8
+  name: Run More Complex Arithmetic Operations
+  description: |+
+    1. Define a variable called `a` and assign it the value `10`
+    2. Define a variable called `b` and assign it the value `7`
+    3. What is the modulus of `a` and `b`?
+    4. What is the floor division of `a` and `b`?
+    5. What is the exponent of `a` and `b`?
+
+- id: cc9d26e3-cb43-4db4-be73-222e33e2ab3f
+  name: Integers and Floats
+  description: |+
+    1. Define a variable called `a` and assign it the value `5`
+    2. Define a variable called `b` and assign it the value `2`
+    3. Print the type of `a`
+    4. Print the type of `b`
+    5. Define a variable called `c` and assign it the value of `a / b`
+    6. Print the type of `c`
+    7. What happened?
+    8. Define a variable called `d` and assign it the value of `a // b`
+    9. Print the type of `d`
+    10. What happened?
+
+    

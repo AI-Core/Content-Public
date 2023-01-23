@@ -1,0 +1,14 @@
+- description: |+ 
+    1. Create a python function that takes in image filepath and prints out the image's data type.
+
+  id: 12540c0a-bbb1-4e59-a344-6ee3a4e4c0ea
+  name: Image Data Types
+
+
+- description: |+ 
+    1. Create a python function that takes an image file and changes the size, orientation, or color of the image.
+
+  id: 54577fe6-716a-49ac-9645-f6c3f26a1e8a
+  name: Image Manipulation
+
+
