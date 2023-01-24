@@ -1,0 +1,5 @@
+id: e370489d-1cfd-4fcc-b8ee-b3bace7fdbd9
+description: Learn how to use MSK connect, to send data from MSK clusters to other AWS and external services
+prerequisites:
+  - 9c16b2e5-d4ef-4004-9eaf-d1c175f839fb # MSK Essentials
+  - f0379838-450b-4d9e-8cf2-4b9178abe37e #S3 and boto3
