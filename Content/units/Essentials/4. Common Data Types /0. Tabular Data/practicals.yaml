@@ -1,22 +1,11 @@
 - description: |+
-    1. Create a list of 5 tuples, where each tuple contains a name and a number. Then, use the `zip` function to combine the two lists into a single list of tuples.
-
-  id: 832ac530-b2fd-4d35-9c8d-ee5db134847d
-  name: Working with Lists
-
-
-- description: |+
-    1. Create a dictionary with 5 key-value pairs. Then, use the `update` method to add 3 more key-value pairs to the dictionary.
-  
-  id: e6a49e96-7668-49c1-b43e-8aa7b408c3b6
-  name: Manipulating Dictionaries
-
-
-- description: |+
-    1. Create a set of 10 numbers. Then, use a set comprehension to create a new set that contains only the even numbers from the original set.
+    1. Create two dictionaries as follows: dict_1 = {'London': [51.509865,-0.118092]} and dict2 = {'Paris': [48.864716, 2.349014]}
+    2. Put them into a list as follows: my_list = [dict_1, dict_2]
+    3. You now have a list, where each element is a dictionary containing a city name and a lat/long co-ordinate pair.
+    4. Write a script that loops through the list and prints out the lattitude of each city like this: "Paris: 48.864716" 
   
   id: 0d6a7d2a-4a76-4e57-840d-637a674f43c6
-  name: Filtering with Sets
+  name: Extracting Data from Lists
 
 
 - description: |+
@@ -27,7 +16,9 @@
 
 
 - description: |+ 
-    1. Create a list of 3 dictionaries, where each dictionary contains 3 key-value pairs. Then, use nested for loops to iterate through each dictionary and print out all of the values in each dictionary.
-  
+    1. Create a list of 3 dictionaries, where each dictionary contains the keys "name", "age" and "favourite_colour". 
+    2. Assign appropriate values to each key in each dictionary.
+    3. Use nested for loops to iterate through each dictionary, and assign all the key-value pairs to a single dictionary.
+
   id: ef2d703b-761a-4287-99b3-70fbac5e06a3
   name: Nested Data Structures

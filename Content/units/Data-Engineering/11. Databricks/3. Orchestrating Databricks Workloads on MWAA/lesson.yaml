@@ -1,0 +1,6 @@
+id: 4df9445a-741a-4d85-a21e-e64bf6372e98
+description: Learn how to connect MWAA and Databricks, and how you can schedule Airflow jobs to run Databricks Notebooks
+prerequisites:
+  - 76ac6786-1a03-4b8a-82eb-7b65457d7ad7 #Databricks Essentials
+  - 66abbb38-3319-4e8f-a63b-a8ed6f8a5a8c # Databricks - S3 mount
+  
