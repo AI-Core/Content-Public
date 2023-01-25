@@ -1,0 +1,5 @@
+id: 0360fe37-e7f5-4358-ab34-5f44ad1a09bd
+description: Learn how to integrate API Gateway with AWS Kinesis
+video_url: 
+prerequisites:
+  - 5ee37689-e7cd-446f-a641-3b992db1d684 #API Gateway
