@@ -1,0 +1,36 @@
+name: Web Scraping
+id: 9e5a0e9e-eab2-476c-a8ed-e34b0029408c
+target_lessons:
+- name: Web Scraping Demo - Data Cleaning
+  id: d4fd77a8-6056-491a-bfe9-46a7376feb01
+- name: Google Images Dataset Collection Demo
+  id: 91867e7d-776a-44bd-8282-374f6b062e57
+- name: Scraping Google Jobs
+  id: 8262123a-4c0b-423a-8355-d1bfa198dddf
+- name: Lyric Scraper with Categories
+  id: e28cc953-472b-48dc-b53c-e423a0ac25f3
+source_lessons:
+- name: Web Scraping using HTML and BeautifulSoup
+  id: ee468b4e-b54c-464f-becb-caa81721ad06
+description: Pathway to get to the lesson(s) Web Scraping Demo - Data Cleaning, Google
+  Images Dataset Collection Demo, Scraping Google Jobs, Lyric Scraper with Categories
+  from the lesson(s) Web Scraping using HTML and BeautifulSoup
+lessons:
+- name: Web Scraping using HTML and BeautifulSoup
+  id: ee468b4e-b54c-464f-becb-caa81721ad06
+- name: Downloading Images from URLs
+  id: 6155d1da-281a-4b3c-a2c4-8dead86af8e2
+- name: Basic Scraper Code Review
+  id: 4cdf6863-018c-4abf-bbd4-5b87edaa7717
+- name: Web Scraping Demo - Data Cleaning
+  id: d4fd77a8-6056-491a-bfe9-46a7376feb01
+- name: Web Scraping with Selenium
+  id: da4bdfbb-94cd-4438-8e42-c38d555c1147
+- name: Lyric Scraper
+  id: 5f0ce88d-f3ea-44c9-baa2-73091fbc749d
+- name: Lyric Scraper with Categories
+  id: e28cc953-472b-48dc-b53c-e423a0ac25f3
+- name: Google Images Dataset Collection Demo
+  id: 91867e7d-776a-44bd-8282-374f6b062e57
+- name: Scraping Google Jobs
+  id: 8262123a-4c0b-423a-8355-d1bfa198dddf

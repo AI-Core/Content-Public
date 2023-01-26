@@ -3,4 +3,6 @@ description: Learn about the AWS service used to run Apache Airflow on the cloud
 video_url: 
 prerequisites:
  - f0379838-450b-4d9e-8cf2-4b9178abe37e #S3 
+ - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9 # What is AWS
+ - 63e68dba-8efa-46cd-a495-f7597bf8c9fe # Airflow
   

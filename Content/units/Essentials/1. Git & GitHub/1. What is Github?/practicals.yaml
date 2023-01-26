@@ -1,3 +1,10 @@
+- description: |+
+    1. Sign up for a GitHub account and explore the features of the website.
+
+  id: 07e8f0a3-cc08-4067-b4a0-c0612da675b1
+  name: Creating a GitHub Account
+
+
 - description: '1. Create a new repo on GitHub called `My-Test-Remote-Repo`
 
     2. Add a `README.md` file to the repo
@@ -74,35 +81,25 @@
 
 
 - description: |+
-    1. Sign up for a GitHub account and explore the features of the website.
-
-  id: 07e8f0a3-cc08-4067-b4a0-c0612da675b1
-  name: Creating a GitHub Account
-
-
-- description: |+
-    1. Find an open source repository on GitHub and fork it to your own account.
-
-  id: 0f7d2ead-3934-4010-8725-2dd3535f2dae
-  name: Forking a Repository
-
-
-- description: |+
-    1. Clone a repository from your own account to your local machine using Git.
-
-  id: a597aa8f-7f2d-4423-816f-0fb9471848fa
-  name: Cloning a Repository
-
-
-- description: |+ 
-    1. Make changes to a forked repository and submit a pull request back to the original repository.
-
-  id: ed3d3615-7e66-4b32-9cb8-a4b17826c846
-  name: Submitting a Pull Request
-
-
-- description: |+
-    1. Create multiple branches in your own repository and manage them using Git commands.
+    1. Create a repository inside a new folder on your local machine, using the `git init` command.
+    2. Create a file called `test.py` and write a short script that multiplies two variables together.
+    3. Track the changes using the `git add` command, and view the current list of tracked files using the `git status` command.
+    4. Commit the changes you made, adding a commit message.
+    5. Create a new branch of your repo, called "addition"
+    6. Inside the new branch, change the script you created so that it now adds the two variables rather than multiplying them.
+    7. Stage the python file, and commit the changes.
+    8. Now use the `git log` command to view just the commits on this new branch.
 
   id: c6010878-e2e6-42ea-8029-7ea80e8206b3
   name: Managing Branches in GitHub
+
+- description: |+
+    1. Create a new repository containing two text files: `text1.txt` and `text2.txt`. Write some text in each one and save them both.
+    2. Track `text1` with `git add`, and commit the changes with a message.
+    3. Use `git log` command to view the previous commit.
+    3. Oh no! We forgot to stage your changes to `text2.txt`! We meant to include them in the previous commit, but forgot!
+    4. Stage `text2.txt`, and now use the 'git commit --amend' command to add it to the previous commit.
+    5. Now use the same command to change the commit message of the previous commit.
+
+  id: a4acf48a-2dd9-4ed0-ba43-b0ada3f76337
+  name: Ammending an Existing Commit

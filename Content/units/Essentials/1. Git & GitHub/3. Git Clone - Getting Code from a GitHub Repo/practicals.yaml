@@ -3,14 +3,7 @@
 
   id: 2c39b9c9-c8f7-4ec4-bf81-e2fcc999c3ea
   name: Cloning a Repository
-
-
-- description: |+
-    1. Make changes to a file, stage the changes using git add, and use the 'git status' command to track changes to the cloned repository.
   
-  id: bc18d340-807b-4ada-926c-2d718b268e51
-  name: Tracking Changes with Git
-
 
 - description: |+ 
     1. Make a change to the README.md file in the remote repository, and use the 'git pull' command to pull the update from the remote repository to the local repository.

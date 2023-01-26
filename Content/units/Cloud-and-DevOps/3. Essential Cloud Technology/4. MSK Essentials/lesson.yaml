@@ -3,3 +3,6 @@ description: Get familiar with AWS MSK, the Amazon service that allows you to ru
 prerequisites:
   - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9 # What is AWS
   - d867845b-17a7-401b-b9aa-c0de78e835f0 # EC2
+  - ca0aa20a-3191-11ec-8d3d-0242ac130003 #What is Kafka
+  - b74e9fbc-319c-11ec-8d3d-0242ac130003 #Kafka Essentials
+  - 06ee1960-6d82-436f-b8a6-7c5d514bfd2a # Kafka Python

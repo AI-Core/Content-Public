@@ -1,3 +1,6 @@
 id: 76ac6786-1a03-4b8a-82eb-7b65457d7ad7
 description: Learn about Databricks and its fundamental concepts.
+prerequisites:
+  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9 # What is AWS
+  - f0379838-450b-4d9e-8cf2-4b9178abe37e #S3 and boto3
 

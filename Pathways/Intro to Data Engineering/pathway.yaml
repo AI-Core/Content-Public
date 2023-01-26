@@ -1,0 +1,29 @@
+name: Intro to Data Engineering
+id: 7401355d-e847-44aa-98e0-089a1b5fcc7d
+target_lessons:
+- name: The Data Engineering Landscape
+  id: d59664af-e709-410c-a373-607f0bc7abc5
+source_lessons:
+- name: What is Data Engineering?
+  id: dc93dd36-45fd-4d3e-b8a6-6898d9b1cb45
+description: Pathway to get to the lesson(s) The Data Engineering Landscape from the
+  lesson(s) What is Data Engineering?
+lessons:
+- name: What is Data Engineering?
+  id: dc93dd36-45fd-4d3e-b8a6-6898d9b1cb45
+- name: The Data Engineering Lifecycle
+  id: 48f8b710-d8ed-4362-8810-db97dbbe50bd
+- name: Data Pipelines
+  id: 0aad50dc-3cec-4aae-94d5-adc309c7381d
+- name: Data Ingestion
+  id: 0e210c69-333e-4ed9-82f0-a28fe9a653ae
+- name: Data Storage
+  id: d11ad81b-5b22-48cf-bba7-6f9356de2ebf
+- name: Batch Processing and Streaming
+  id: 07171595-c486-436b-9f81-c16e1018ce31
+- name: Data Transformation - ETL & ELT
+  id: 8c541ce6-82c0-4737-b8cc-7b263f3b0754
+- name: Enterprise Data Warehouses
+  id: 5f275e05-b41b-4fe9-8554-73533cd8f070
+- name: The Data Engineering Landscape
+  id: d59664af-e709-410c-a373-607f0bc7abc5

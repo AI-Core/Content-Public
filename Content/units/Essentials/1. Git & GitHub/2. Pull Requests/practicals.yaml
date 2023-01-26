@@ -9,13 +9,6 @@
   description: |+
     1. Create a pull request with multiple commits, and then squash them into one commit.
   
-
-- id: a4acf48a-2dd9-4ed0-ba43-b0ada3f76337
-  name: Amend an Existing Commit in a Pull Request
-  description: |+
-    1. Create a pull request with an existing commit, and then amend the commit with additional changes.
-  
-
 - id: 40c7f2f7-04ba-4a78-9d6d-1c5b7acd9e71
   name: Create a Pull Request from a Forked Repository
   description: |+

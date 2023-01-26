@@ -1,0 +1,29 @@
+name: SQL Essentials
+id: 5fbc72f0-e89f-4689-ae4f-d140cf539961
+target_lessons:
+- name: Subqueries
+  id: c5573ed3-239a-41d4-a435-74db5e153547
+- name: Joins
+  id: cf776c94-6dbe-4c80-8a00-af842f5c66ea
+- name: Aggregations
+  id: 30d1f6c4-3518-4b0e-a6e7-d3198fb12c62
+source_lessons:
+- name: What is SQL?
+  id: 0a31bc4e-b684-4cc1-a4b2-0dcce94bb004
+description: Pathway to get to the lesson(s) Subqueries, Joins, Aggregations from
+  the lesson(s) What is SQL?
+lessons:
+- name: What is SQL?
+  id: 0a31bc4e-b684-4cc1-a4b2-0dcce94bb004
+- name: SQL Setup
+  id: 13308eb8-cd86-4e7e-b91a-271e01020dc9
+- name: SQL Basics
+  id: 9edc0c54-ff0e-4d4c-bdda-49ed3527a94e
+- name: CRUD
+  id: c7ace46d-395a-47fe-b311-fd3b604270c0
+- name: Subqueries
+  id: c5573ed3-239a-41d4-a435-74db5e153547
+- name: Joins
+  id: cf776c94-6dbe-4c80-8a00-af842f5c66ea
+- name: Aggregations
+  id: 30d1f6c4-3518-4b0e-a6e7-d3198fb12c62

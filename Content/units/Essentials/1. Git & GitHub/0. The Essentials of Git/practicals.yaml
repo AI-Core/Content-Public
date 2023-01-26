@@ -1,22 +1,45 @@
 - description: |+
     1. Create a new local Git repository by initialising it with the `git init` command. 
+
   id: 22f5deb8-84ce-4705-a43f-441be0943865
   name: Initialising a Repository
+
+
 - description: |+
     1. Create a new remote repository on GitHub and connect it to your local repository using the `git remote add` command. 
+
   id: f49f6b4a-f8af-4894-add4-a82f77a7ceec
   name: Creating a Remote Repository
+
+
 - description: |+
     1. Clone an existing remote repository from GitHub to your local machine using the `git clone` command.
+
   id: 2170f12d-dd60-4da8-a7b9-a498d7164521
   name: Cloning a Repository
+
+
 - description: |+
     1. Create a new branch in your local repository, make some edits, stage and commit them. 
     2. Then switch back to your master branch and merge the new branch into your master branch, using the `git merge` command."
+
   id: ea0b1697-1dde-41c8-a32d-22b3d259ba16
   name: Merging Branches
+
+
 - description: |+
     1. Create two branches in your local repository and generate a merge conflict by changing the same line of code in both branches.  
     2. Resolve the conflict using the `git mergetool` command."
+
   id: 37ec205e-a2a2-42f0-b26e-8ede311c78a5
   name: Resolving Merge Conflicts
+
+- description: |+
+    1. Create a new repository with the `git init` command.
+    2. Create a new text file in the repository, add some data to it, and save it.
+    3. Stage the changes using git add, and use the `git status` command to track changes to the repository.
+    4. Commit the changes and add a commit message.
+    5. View the commit message using the `git log` command.
+  
+  id: bc18d340-807b-4ada-926c-2d718b268e51
+  name: Tracking Changes with Git
