@@ -1,4 +1,4 @@
-name: Deep Learning Pathway
+name: Deep Learning Essentials
 id: 419c2c02-2d08-4370-8fdd-48b3e6d61bf8
 target_lessons:
 - name: Saving and Loading PyTorch Models
