@@ -1,109 +1,70 @@
 name: Machine Learning Essentials
 id: 7f3d1ca1-7ef9-468e-9c37-5ab646deea1c
 target_lessons:
-- name: K-means clustering
-  id: 0f76f840-cd60-4e9a-9fd6-ab963d67a327
-- name: Grid Search & K-fold Cross Validation
-  id: f4bec46e-ecb4-4811-8053-2dccb0339f24
-- name: Cross Entropy
-  id: 757b15ee-d471-4f53-b368-7dd2df60cdc2
-- name: Essential ML Concepts Review
-  id: f0732552-323d-4cd3-a0dc-58b14a13d129
-- name: Evaluation Metrics - Classification
-  id: 525b4998-158b-4a69-940e-a1eb75b8e542
-- name: Evaluation Metrics - Regression
-  id: 8191c8fe-19a0-442b-94ec-f1f68972a869
-- name: Maximum Likelihood Estimation
-  id: 6d31dd18-6250-4e3b-8bd3-695a87e1bc6f
+  - name: K-means clustering
+    id: 0f76f840-cd60-4e9a-9fd6-ab963d67a327
+  - name: Grid Search & K-fold Cross Validation
+    id: f4bec46e-ecb4-4811-8053-2dccb0339f24
+  - name: Cross Entropy
+    id: 757b15ee-d471-4f53-b368-7dd2df60cdc2
+  - name: Essential ML Concepts Review
+    id: f0732552-323d-4cd3-a0dc-58b14a13d129
+  - name: Evaluation Metrics - Classification
+    id: 525b4998-158b-4a69-940e-a1eb75b8e542
+  - name: Evaluation Metrics - Regression
+    id: 8191c8fe-19a0-442b-94ec-f1f68972a869
+  - name: Maximum Likelihood Estimation
+    id: 6d31dd18-6250-4e3b-8bd3-695a87e1bc6f
 source_lessons:
-- name: What is machine learning?
-  id: c1b81225-3f98-4306-bb1e-60a0f81afea3
-description: Pathway to get to the lesson(s) K-means clustering, Grid Search & K-fold
-  Cross Validation, Cross Entropy, Essential ML Concepts Review, Evaluation Metrics
-  - Classification, Evaluation Metrics - Regression, Maximum Likelihood Estimation
-  from the lesson(s) What is machine learning?
+  - name: What is machine learning?
+    id: c1b81225-3f98-4306-bb1e-60a0f81afea3
+  - name: Numpy - Intro
+    id: ec6ee532-9e47-454a-99c5-7ed8a3ad1b92
+description: Learn about the fundamental concepts and techniques underpinning machine learning
 lessons:
-- name: What is machine learning?
-  id: c1b81225-3f98-4306-bb1e-60a0f81afea3
-- name: Data for ML
-  id: 89b7fb50-9de8-46a4-bf86-d54cf316b899
-- name: What is a model?
-  id: 26aa580c-6acb-4359-8ba9-9c219996b409
-- name: What is Python?
-  id: 218220c1-a559-4ebc-b3d8-2fb10ff76302
-- name: Printing things in Python
-  id: 55b2eae1-aa8b-4243-b2df-0de2f02b073e
-- name: Variables
-  id: 25d1757b-66ee-4c5d-8489-adcc923fec0e
-- name: Booleans
-  id: f6bbf8c6-1eac-49e5-bd2f-03e2ae4f9e28
-- name: Control Flow
-  id: 34f017d8-c4c0-468c-bd43-bb2f1ed17683
-- name: What is the command line
-  id: cf55cfa3-05a2-4299-bd39-ba5acfc9df85
-- name: Running terminal commands
-  id: 7e0fc1d3-42ad-420f-ad7f-4e5b1359233d
-- name: File Manipulation
-  id: 643030bc-1395-4d7b-8c68-3c65b431d87a
-- name: Package managers
-  id: cecd59fb-f62a-4022-a540-480a0e96d8e0
-- name: Editing files with nano
-  id: 64953624-4a58-4ef8-9c25-854be430fc6b
-- name: Running Python files from the terminal
-  id: 1a9545ea-2616-4ef9-bedc-d1d0186c14b5
-- name: A tour of VSCode
-  id: f227e021-88bf-4cb6-97cf-73bd8a0fa612
-- name: The VSCode integrated terminal
-  id: bdf26d3b-1b8e-4b3e-bb90-cbca70df1512
-- name: Markdown
-  id: e233ba97-b6ac-4e78-bd32-ab5a76782212
-- name: Python files and Python Notebooks
-  id: a242009f-93a3-4d78-8035-f0eba05fbc82
-- name: How (and how not) to run Python files from VSCode
-  id: fb8268dd-2b60-46a8-833b-21f0b1263a4f
-- name: pip
-  id: 0746278f-b348-4cbc-97d7-2382bf7b8efb
-- name: conda
-  id: 523a31ca-c8a3-44a9-a599-17f66c89a6e8
-- name: Imports
-  id: 1e915112-889d-428b-905b-b8cf4bdce0bf
-- name: Numpy - Intro
-  id: ec6ee532-9e47-454a-99c5-7ed8a3ad1b92
-- name: Numpy - Array Operations
-  id: 754853b6-36f8-4876-937e-0e80edd1c75d
-- name: Numpy - Reshape and Broadcasting
-  id: f6db27a4-955a-4501-a383-f989c6da7cb0
-- name: Intro to Models - Linear regression
-  id: 54d541f6-987b-461e-a64b-1c3e76e810c5
-- name: Validation and Testing
-  id: ab8dba5e-5bd2-4e09-8d00-32ba8484596c
-- name: Bias & variance
-  id: a027ad34-762b-46d7-84b4-fe753229c620
-- name: Hyperparameters
-  id: 5906e2d6-b031-4f0f-9535-f2558a7a521b
-- name: Gradient based optimisation
-  id: 00640ac4-3411-4d51-8618-9d1081b4abaa
-- name: Regularisation
-  id: b097a50c-2ad4-4cdd-8596-38d8d6efca6b
-- name: Essential ML Concepts Review
-  id: f0732552-323d-4cd3-a0dc-58b14a13d129
-- name: What is Classification?
-  id: e6991438-bdcd-4170-9e28-a9e7d8ab3569
-- name: Softmax
-  id: 106d664a-f0cf-4639-8fc5-f790cb487f1f
-- name: Multiclass Classification
-  id: 684f43f8-169a-47a1-9f1c-a536e76538fd
-- name: Cross Entropy
-  id: 757b15ee-d471-4f53-b368-7dd2df60cdc2
-- name: Multiclass Classification in Sklearn
-  id: 776fec70-0835-4e53-a655-7f83e1aec42a
-- name: Evaluation Metrics - Classification
-  id: 525b4998-158b-4a69-940e-a1eb75b8e542
-- name: Maximum Likelihood Estimation
-  id: 6d31dd18-6250-4e3b-8bd3-695a87e1bc6f
-- name: Evaluation Metrics - Regression
-  id: 8191c8fe-19a0-442b-94ec-f1f68972a869
-- name: Grid Search & K-fold Cross Validation
-  id: f4bec46e-ecb4-4811-8053-2dccb0339f24
-- name: K-means clustering
-  id: 0f76f840-cd60-4e9a-9fd6-ab963d67a327
+  - name: What is machine learning?
+    id: c1b81225-3f98-4306-bb1e-60a0f81afea3
+  - name: Data for ML
+    id: 89b7fb50-9de8-46a4-bf86-d54cf316b899
+  - name: What is a model?
+    id: 26aa580c-6acb-4359-8ba9-9c219996b409
+  - name: Numpy - Intro
+    id: ec6ee532-9e47-454a-99c5-7ed8a3ad1b92
+  - name: Numpy - Array Operations
+    id: 754853b6-36f8-4876-937e-0e80edd1c75d
+  - name: Numpy - Reshape and Broadcasting
+    id: f6db27a4-955a-4501-a383-f989c6da7cb0
+  - name: Intro to Models - Linear regression
+    id: 54d541f6-987b-461e-a64b-1c3e76e810c5
+  - name: Validation and Testing
+    id: ab8dba5e-5bd2-4e09-8d00-32ba8484596c
+  - name: Bias & variance
+    id: a027ad34-762b-46d7-84b4-fe753229c620
+  - name: Hyperparameters
+    id: 5906e2d6-b031-4f0f-9535-f2558a7a521b
+  - name: Gradient based optimisation
+    id: 00640ac4-3411-4d51-8618-9d1081b4abaa
+  - name: Regularisation
+    id: b097a50c-2ad4-4cdd-8596-38d8d6efca6b
+  - name: Essential ML Concepts Review
+    id: f0732552-323d-4cd3-a0dc-58b14a13d129
+  - name: What is Classification?
+    id: e6991438-bdcd-4170-9e28-a9e7d8ab3569
+  - name: Softmax
+    id: 106d664a-f0cf-4639-8fc5-f790cb487f1f
+  - name: Multiclass Classification
+    id: 684f43f8-169a-47a1-9f1c-a536e76538fd
+  - name: Cross Entropy
+    id: 757b15ee-d471-4f53-b368-7dd2df60cdc2
+  - name: Multiclass Classification in Sklearn
+    id: 776fec70-0835-4e53-a655-7f83e1aec42a
+  - name: Evaluation Metrics - Classification
+    id: 525b4998-158b-4a69-940e-a1eb75b8e542
+  - name: Maximum Likelihood Estimation
+    id: 6d31dd18-6250-4e3b-8bd3-695a87e1bc6f
+  - name: Evaluation Metrics - Regression
+    id: 8191c8fe-19a0-442b-94ec-f1f68972a869
+  - name: Grid Search & K-fold Cross Validation
+    id: f4bec46e-ecb4-4811-8053-2dccb0339f24
+  - name: K-means clustering
+    id: 0f76f840-cd60-4e9a-9fd6-ab963d67a327

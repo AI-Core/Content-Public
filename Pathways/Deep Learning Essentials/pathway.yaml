@@ -1,53 +1,52 @@
 name: Deep Learning Essentials
 id: 419c2c02-2d08-4370-8fdd-48b3e6d61bf8
 target_lessons:
-- name: Saving and Loading PyTorch Models
-  id: 0a6fc357-4b14-482a-a221-7f373169f163
+  - name: Saving and Loading PyTorch Models
+    id: 0a6fc357-4b14-482a-a221-7f373169f163
 source_lessons:
-- name: Essential ML Concepts Review
-  id: f0732552-323d-4cd3-a0dc-58b14a13d129
-description: Pathway to get to the lesson(s) Saving and Loading PyTorch Models from
-  the lesson(s) Essential ML Concepts Review
+  - name: Essential ML Concepts Review
+    id: f0732552-323d-4cd3-a0dc-58b14a13d129
+description: Learn to understand and implement neural networks
 lessons:
-- name: Essential ML Concepts Review
-  id: f0732552-323d-4cd3-a0dc-58b14a13d129
-- name: What is deep learning?
-  id: c796c6ec-59a3-4be8-acc1-478b7e57ab0b
-- name: What is PyTorch?
-  id: 1419b0b3-f91d-4a0a-b4f3-4d20342fc636
-- name: PyTorch Tensors
-  id: 4cdfb904-d2b7-4c5e-a2d4-7f18f08622ea
-- name: PyTorch Datasets
-  id: 049a81a7-59a4-47af-9ed7-d046810f4b26
-- name: Custom PyTorch Datasets
-  id: 2097084f-788c-4326-8f4f-b421c4eef1a0
-- name: PyTorch Transforms
-  id: 6e24dcd1-2e31-46c2-a83e-0b03eff05006
-- name: PyTorch Data Loaders
-  id: 8014afb2-eff4-4aa6-bb88-b8082146d53c
-- name: Building ML models in PyTorch - Linear regression example
-  id: 87504401-fe8f-4280-b7c3-4621e68e62aa
-- name: Neural network notation
-  id: e38c7147-ba61-4ff4-867e-bd2284bdd3ca
-- name: Why you need activation functions
-  id: 2a5f36fb-5bba-42c6-9da0-57ed19d2a834
-- name: Common activation functions
-  id: 00bd7132-890d-475e-9f76-0f0ec923e9c3
-- name: Backpropagation
-  id: 43b8324e-12df-4b34-ab93-f4778ffd8036
-- name: Autograd
-  id: 5d6bc862-c132-4abe-8e78-d4ad9df7bbae
-- name: Training Loops in PyTorch - Linear regression example
-  id: 85c81f9a-d998-47f5-afc6-db35f6c49954
-- name: Tensorboard
-  id: fa913a8a-f4c7-4ad8-8410-13cff6a4ad85
-- name: Optimisation in PyTorch - Linear regression example
-  id: 2faa29c6-4070-454f-8b87-9d51b7500fae
-- name: Logistic regression in PyTorch
-  id: 4b983bdf-a28f-4b87-bdbe-464384efac2a
-- name: Multiclass classification in PyTorch
-  id: d661c61d-a77c-470f-9512-db06c4cdb212
-- name: Building our first neural network in PyTorch
-  id: f8589a8f-2d51-4dd0-8ee3-ffc3b421ce03
-- name: Saving and Loading PyTorch Models
-  id: 0a6fc357-4b14-482a-a221-7f373169f163
+  - name: Essential ML Concepts Review
+    id: f0732552-323d-4cd3-a0dc-58b14a13d129
+  - name: What is deep learning?
+    id: c796c6ec-59a3-4be8-acc1-478b7e57ab0b
+  - name: What is PyTorch?
+    id: 1419b0b3-f91d-4a0a-b4f3-4d20342fc636
+  - name: PyTorch Tensors
+    id: 4cdfb904-d2b7-4c5e-a2d4-7f18f08622ea
+  - name: PyTorch Datasets
+    id: 049a81a7-59a4-47af-9ed7-d046810f4b26
+  - name: Custom PyTorch Datasets
+    id: 2097084f-788c-4326-8f4f-b421c4eef1a0
+  - name: PyTorch Transforms
+    id: 6e24dcd1-2e31-46c2-a83e-0b03eff05006
+  - name: PyTorch Data Loaders
+    id: 8014afb2-eff4-4aa6-bb88-b8082146d53c
+  - name: Building ML models in PyTorch - Linear regression example
+    id: 87504401-fe8f-4280-b7c3-4621e68e62aa
+  - name: Neural network notation
+    id: e38c7147-ba61-4ff4-867e-bd2284bdd3ca
+  - name: Why you need activation functions
+    id: 2a5f36fb-5bba-42c6-9da0-57ed19d2a834
+  - name: Common activation functions
+    id: 00bd7132-890d-475e-9f76-0f0ec923e9c3
+  - name: Backpropagation
+    id: 43b8324e-12df-4b34-ab93-f4778ffd8036
+  - name: Autograd
+    id: 5d6bc862-c132-4abe-8e78-d4ad9df7bbae
+  - name: Training Loops in PyTorch - Linear regression example
+    id: 85c81f9a-d998-47f5-afc6-db35f6c49954
+  - name: Tensorboard
+    id: fa913a8a-f4c7-4ad8-8410-13cff6a4ad85
+  - name: Optimisation in PyTorch - Linear regression example
+    id: 2faa29c6-4070-454f-8b87-9d51b7500fae
+  - name: Logistic regression in PyTorch
+    id: 4b983bdf-a28f-4b87-bdbe-464384efac2a
+  - name: Multiclass classification in PyTorch
+    id: d661c61d-a77c-470f-9512-db06c4cdb212
+  - name: Building our first neural network in PyTorch
+    id: f8589a8f-2d51-4dd0-8ee3-ffc3b421ce03
+  - name: Saving and Loading PyTorch Models
+    id: 0a6fc357-4b14-482a-a221-7f373169f163
