@@ -1,0 +1,23 @@
+
+- description: |+ 
+    1. Import the `Iris` dataset using the `sklearn.datasets` module.
+    2. Create a multiclass classification model that uses logistic regression, and train to classify the species of iris, using 70% of the `IRIS` dataset.
+    3. Validate the initial model approach using the validation set (15% of the `IRIS` dataset). Use `sklearn.metrics.accuracy_score` to check the accuracy.
+    4. Find an alternative model that outperforms your initial model. You can also use grid or random search to optimise any hyperparameters.
+    5. Use `scikit-learn` or a package of your choice to plot a confusion matrix of your best classifier.
+
+  id: 1505072a-94ea-43aa-87b0-1f721dfa448e
+
+  name: Create a Multiclass Classification Model Using Scikit Learn
+
+- description: |+ 
+    1. Import the `MNIST` dataset using the `sklearn.datasets` module. 
+    2. Perform some exploratory analysis on the dataset - how many entries are there? What do the targets look like? How about the features?
+    3. Find a way to show the features of a single example as a 28x28 pixel grayscale image.
+    4. Divide the data into train and validation sets.
+    5. Use a classification algorithm of your choice to achieve a 95% accuracy threshold on the validation set.
+
+  id: c08abc26-0f57-47f6-8e74-31619df1180e
+
+  name: Optimise a Classifier on the MNIST Dataset
+

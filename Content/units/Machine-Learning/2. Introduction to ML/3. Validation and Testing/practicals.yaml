@@ -1,0 +1,10 @@
+
+- description: |+
+    1. Download the `diabetes` dataset using the `sklearn.datasets` module.
+    2. Use the `train_test_split` function from sklearn to split the `diabetes` dataset into a train set and a validation set.
+    3. Split the validation set into two equal parts, naming one of them `validation` and the other `test`.
+
+  id: 72d29c24-b59f-448d-aee1-b6fd82e6806d
+  name: Split the Dataset into Train and Test Sets
+
+
