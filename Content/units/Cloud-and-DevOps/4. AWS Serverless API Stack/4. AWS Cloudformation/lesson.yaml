@@ -1,7 +1,0 @@
-id: 7222fa85-e81b-49ef-8e4f-2e4b8082bd7c
-description: Learn how to define infrastructure as code on AWS
-video_url: https://www.youtube.com/embed/4qrD2_6ktMA
-prerequisites:
-  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9
-  - 89ee7087-a07e-4bd3-8331-585c88533950
-  - 5ee37689-e7cd-446f-a641-3b992db1d684

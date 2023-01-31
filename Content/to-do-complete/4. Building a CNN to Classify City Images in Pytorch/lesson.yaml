@@ -1,7 +1,0 @@
-id:
-description: Cover building a convolutional neural network in Pytorch for classifying images from the AiCore Cities dataset
-prerequisites:
-  -
-type: demo
-demo-series: # series id
-series-lesson-idx: # idx in series

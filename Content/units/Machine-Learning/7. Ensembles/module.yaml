@@ -1,6 +1,0 @@
-id: 2c1a3fe9-9cd1-48af-90f0-e900dc2d78ee
-description: Discover ensemble models that combine predictions from multiple models which can help to reduce variance in your model. 
-prerequisites:
-  - id: f7ffc03c-84f1-4ee2-a6e0-6feb040021df
-  - id: 6a76d7fb-72e8-4e18-8be4-3c577a5a9d08
-  - id: dae521a4-80ac-40a3-bbc2-d6a7779f9de0

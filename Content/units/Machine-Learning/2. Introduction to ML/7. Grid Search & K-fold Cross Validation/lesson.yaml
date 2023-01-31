@@ -1,7 +1,0 @@
-description:
-  Learn how to select the best hyperparameters using a grid search and employ K-fold validation
-  to ensure better generalisation of your model.
-id: f4bec46e-ecb4-4811-8053-2dccb0339f24
-prerequisites:
-  - 5906e2d6-b031-4f0f-9535-f2558a7a521b
-  - ab8dba5e-5bd2-4e09-8d00-32ba8484596c

@@ -1,6 +1,0 @@
-id: d9d3a214-04f1-4885-ad54-59f7dccda371
-description: Examines Kafka more closely and describes how to integrate Kafka with Spark.  Also explains how they are connected together in enterprise data platforms.
-video_url: https://www.youtube.com/embed/oVgLtP5TWIA
-prerequisites:
-  - b74e9fbc-319c-11ec-8d3d-0242ac130003
-  - 83389f7d-912b-476f-9efb-c68da65a8de5

@@ -1,4 +1,0 @@
-id: f5d49ee6-d8ef-4eb2-8fba-d769d74bc8ea
-description: Understand the DBSCAN algorithm and implement it both from scratch and using the SKLearn library.
-prerequisites:
-  - 26aa580c-6acb-4359-8ba9-9c219996b409

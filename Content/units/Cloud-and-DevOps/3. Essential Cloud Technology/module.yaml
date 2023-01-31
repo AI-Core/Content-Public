@@ -1,4 +1,0 @@
-id: d8189554-2d0a-42d3-8416-c1dfde14bb3c
-description: Cloud services are essential in tools for projects and models. Cover the basics of Amazon Web Service, focusing on EC2 instances, S3 buckets and RDS
-prerequisites:
-  - id: 51911a90-cb6b-4455-810a-940ffcb63bd3 # SQL

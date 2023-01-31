@@ -1,4 +1,0 @@
-id: d498a055-6718-49e1-a947-23e49996cd72
-description: Learn how to import data into an HBase table. Understand the commands required to interact with the data stored in HBase.
-prerequisites:
-  - fef78584-42ab-4f6b-af32-ce3e273b9d6a

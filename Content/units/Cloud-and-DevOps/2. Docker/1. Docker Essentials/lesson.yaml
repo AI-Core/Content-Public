@@ -1,6 +1,0 @@
-id: b8873f7d-087f-479b-a2f5-b26dbf77dc7a
-description: Learn in-depth the commands to build a Dockerfile, how to ignore unneeded files in your build and create multi-stage docker builds.
-prerequisites:
-  - 06d96433-7b50-41bc-bbbc-227f1f70152b
-  - bdf26d3b-1b8e-4b3e-bb90-cbca70df1512
-  - 4223a361-1776-424d-a561-1f8fb0260862

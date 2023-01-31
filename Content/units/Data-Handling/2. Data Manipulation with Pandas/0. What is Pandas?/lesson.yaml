@@ -1,5 +1,0 @@
-id: e9fa11b2-93fe-48dd-8185-e1247a379efd
-description: Learn about one of the most important libraries for manipulating tabular data
-prerequisites:
-  - 1e915112-889d-428b-905b-b8cf4bdce0bf # imports
-  - 257c3cbd-7b2c-47fc-b139-87ca94bc26b4 # tabular data

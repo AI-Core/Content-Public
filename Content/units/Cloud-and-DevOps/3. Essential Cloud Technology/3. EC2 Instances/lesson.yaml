@@ -1,5 +1,0 @@
-id: d867845b-17a7-401b-b9aa-c0de78e835f0
-description: Amazon EC2 Instances are a great way to get started with Amazon Web Services. They are a cloud computing service that provides you with the ability to run virtual machines on Amazon's infrastructure. In this lesson we will see how to instanciate an EC2 instance, and run a Python script on it. We will also see how to create scheduled jobs using crontabs.
-video_url: https://youtube.com/embed/Y8TjGx4_k-4
-prerequisites:
-  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9

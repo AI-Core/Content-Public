@@ -1,4 +1,0 @@
-id: 63e68dba-8efa-46cd-a495-f7597bf8c9fe
-description: Learn how to use Apache Airflow to trigger jobs and orchestrate them so that they run in order.
-prerequisites:
-  - 1e915112-889d-428b-905b-b8cf4bdce0bf

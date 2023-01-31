@@ -1,4 +1,0 @@
-id: 00640ac4-3411-4d51-8618-9d1081b4abaa
-description: This module will teach you the concept of gradient based optimisation. You will then implement Stochastic Gradient Descent(SGD) and a linear regression model from scratch.
-prerequisites:
-  - 54d541f6-987b-461e-a64b-1c3e76e810c5

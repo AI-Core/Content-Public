@@ -1,5 +1,0 @@
-id: 85c81f9a-d998-47f5-afc6-db35f6c49954
-description: Learn how to implement a generic training loop for training models in PyTorch
-prerequisites:
-  - 87504401-fe8f-4280-b7c3-4621e68e62aa
-  - 5d6bc862-c132-4abe-8e78-d4ad9df7bbae

@@ -1,9 +1,0 @@
-- id: 3b8660dd-aaaa-4c7f-a1f4-e020cd0a155e
-  name: Add Docstrings to a Class
-  description: |+
-    1. Download the file `temperature_example.py` from this [link](https://aicore-files.s3.amazonaws.com/Foundations/Python_Programming/temperature_example.py)
-    2. Add docstrings to the class
-    3. Add docstrings to the methods
-    4. Create another file called `test_docstrings.py`
-    5. Import the `Temperature` class from `temperature_example.py`
-    6. Call the `help` function on the `Temperature` class

@@ -1,4 +1,0 @@
-id: d511d913-d9c3-4bff-a06f-62d39fffda02
-description: Your models and applications might have some libraries and dependencies that can be characteristic of your system. This can cause issues when running your code on other instances. In this module we will show you how to create containers in Dockers, so other users can use your program with no conflicts.
-prerequisites:
-  - id: f31dfbbe-2092-488c-8d24-20f1e9024b45 # python programming

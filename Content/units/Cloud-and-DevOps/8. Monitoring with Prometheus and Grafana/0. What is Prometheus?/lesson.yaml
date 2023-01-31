@@ -1,4 +1,0 @@
-id: c50d3121-191c-4485-a456-152f29742715
-description: Learn how Prometheus allows you to monitor the performance of your applications and integrates with many tools enabling you to monitor other metrics related to common components of modern software systems.
-prerequisites:
-  - b8873f7d-087f-479b-a2f5-b26dbf77dc7a

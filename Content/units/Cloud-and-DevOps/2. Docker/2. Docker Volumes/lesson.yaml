@@ -1,4 +1,0 @@
-id: ed1216b9-8db3-45d0-9940-e33cbc0beba1
-description: Learn how to use Docker Volumes to attach external, persistent storage to a Docker container, and how to share that storage amongst multiple containers
-prerequisites:
-  - b8873f7d-087f-479b-a2f5-b26dbf77dc7a

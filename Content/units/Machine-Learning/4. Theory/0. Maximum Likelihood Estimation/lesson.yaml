@@ -1,4 +1,0 @@
-id: 6d31dd18-6250-4e3b-8bd3-695a87e1bc6f
-description: Derive the typical loss functions used in regression and classification problems using a theorem known as Maximum Likelihood Estimation
-prerequisites:
-  - 776fec70-0835-4e53-a655-7f83e1aec42a

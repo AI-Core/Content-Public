@@ -1,4 +1,0 @@
-id: 06ee1960-6d82-436f-b8a6-7c5d514bfd2a
-description: This lesson will cover interacting with Kafka using Python but utilising the Python package kafka-python.
-prerequisites:
-  - b74e9fbc-319c-11ec-8d3d-0242ac130003

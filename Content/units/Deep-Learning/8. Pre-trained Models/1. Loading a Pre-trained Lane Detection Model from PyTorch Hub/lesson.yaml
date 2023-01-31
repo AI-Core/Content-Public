@@ -1,4 +1,0 @@
-id: 284c2b39-3760-4193-a904-598d2fa168be
-description: Check out a demo of pulling a pre-trained model for lane detection - which you would find in an autonomous vehicle control system - off of PyTorch Hub and making a prediction using it
-prerequisites:
-  - 30d74ec3-d063-464b-8d7a-4ddbdafb62f7

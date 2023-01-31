@@ -1,4 +1,0 @@
-id: b74e9fbc-319c-11ec-8d3d-0242ac130003
-description: This lesson dives deeper into Kafka's topology and components; namely the Brokers, Producers, Consumers and Topics
-prerequisites:
-  - ca0aa20a-3191-11ec-8d3d-0242ac130003

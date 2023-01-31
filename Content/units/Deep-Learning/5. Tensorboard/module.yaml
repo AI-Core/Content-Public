@@ -1,4 +1,0 @@
-id: 868d618a-8475-4b31-b3cd-f4646498d2b4
-description: Learn how to use Tensorboard to visualise your neural network training metrics and other data
-prerequisites:
-  - id: dc16de4a-0c08-4689-b64d-954d7d20b9db

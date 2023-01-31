@@ -1,7 +1,0 @@
-id:
-description: Cover building a neural network in Pytorch for classifying images from the AiCore Cities dataset
-prerequisites:
-  - d661c61d-a77c-470f-9512-db06c4cdb212
-type: demo
-demo-series: # series id
-series-lesson-idx: # idx in series

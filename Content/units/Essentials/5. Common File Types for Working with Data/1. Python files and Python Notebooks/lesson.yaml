@@ -1,6 +1,0 @@
-id: a242009f-93a3-4d78-8035-f0eba05fbc82
-description: Learn the main file formats you will use when coding in Python
-prerequisites:
-  - bdf26d3b-1b8e-4b3e-bb90-cbca70df1512 # The VSCode integrated terminal
-  - 218220c1-a559-4ebc-b3d8-2fb10ff76302 # What is Python
-  - e233ba97-b6ac-4e78-bd32-ab5a76782212 # Markdown

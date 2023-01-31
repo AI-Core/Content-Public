@@ -1,4 +1,0 @@
-id: a5972da8-c1cb-48be-9fa4-4b4e821381b7
-description: Learn how to create workflows that automate manual tasks like testing and deployment.
-prerequisites:
-  - id: 43bd7ba0-8032-4020-bc94-d0e6b00034b0 # data format and pandas

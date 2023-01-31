@@ -1,6 +1,0 @@
-id: cdf8de13-1a22-472c-b9f5-29b909631d3c
-description: Understand the steps required to integrate Presto with Cassandra. Learn how to use Presto to interact with data stored in Cassandra.
-video_url: https://youtube.com/embed/SFt9Pd8i5uo
-prerequisites:
-  - 6d812d61-a6ec-4e07-a5c7-5364e0823dc9
-  - 440700f3-2a3c-4a42-9d1d-f6cde5778a5d

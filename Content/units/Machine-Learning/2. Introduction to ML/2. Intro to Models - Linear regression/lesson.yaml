@@ -1,6 +1,0 @@
-id: 54d541f6-987b-461e-a64b-1c3e76e810c5
-description: In this module you will learn the difference between monovariate and multivariate regression. You will implement your first machine learning model from scratch and optimize it using the analytical solution.
-prerequisites:
-  - 26aa580c-6acb-4359-8ba9-9c219996b409
-  - f6db27a4-955a-4501-a383-f989c6da7cb0
-  - 89b7fb50-9de8-46a4-bf86-d54cf316b899

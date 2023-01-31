@@ -1,4 +1,0 @@
-id: f9eeaba4-7c4b-4182-bb90-8b9f9e99ae50
-description: Understand what boosting is and how it differs from baggging. Learn the AdaBoost algorithm and implement it using SKLearn.
-prerequisites:
-  - 8c04655f-1322-4192-b307-fbe5a7748de8

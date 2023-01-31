@@ -1,5 +1,0 @@
-id: 09964746-d1f4-4670-a75c-817edacddbcd
-description: Learn how to integrate a locally installed version of Tableau Desktop with a PostgreSQL database that is hosted either locally or in the AWS cloud.
-prerequisites:
-  - b905d035-01a9-40dc-9c6d-051f771c1aa4
-  - c7ace46d-395a-47fe-b311-fd3b604270c0

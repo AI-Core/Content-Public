@@ -1,5 +1,0 @@
-id: d71d1a38-d078-44e0-b810-a3fab113b0f0
-description: Learn how to use MLFlow for experiment tracking, and to store and share your models
-prerequisites:
-  - id: 308353e8-ff14-46f2-9405-b86d958c4cf0 # Intro to MLOPs
-  - id: dae521a4-80ac-40a3-bbc2-d6a7779f9de0 # Intro to Machine Learning

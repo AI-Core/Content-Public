@@ -1,4 +1,0 @@
-id: a027ad34-762b-46d7-84b4-fe753229c620
-description: This model teaches you the core concepts of machine learning, bias, variance, under/overfitting and generalisation. You will learn to identify whether your model is over/underfitting due to bias and variance and what the possible causes are.
-prerequisites:
-  - 54d541f6-987b-461e-a64b-1c3e76e810c5

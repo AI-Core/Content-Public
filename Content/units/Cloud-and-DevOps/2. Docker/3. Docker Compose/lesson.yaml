@@ -1,4 +1,0 @@
-id: fc11754a-1137-46ba-818f-0e03b76c1c26
-description: Learn how to use Docker Compose to define all of the options required to run the container in code and to run (and network) multi-container applications
-prerequisites:
-  - b8873f7d-087f-479b-a2f5-b26dbf77dc7a

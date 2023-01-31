@@ -1,5 +1,0 @@
-- we refer to the last layer as a "head" and often talk about replacing a model head
-- many vision models are pretrained on imagenet
-- that means that they can be biased to perform better on western images which it mostly consists of
-- tranfer learning can save lots of compute which training the backbone model typically requires
-- we refer to the pretrained model as the backbone

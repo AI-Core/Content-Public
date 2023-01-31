@@ -1,9 +1,0 @@
-description:
-  This is the first Kafka Lesson and introduces Kafka, What it does, the
-  architecture and top Industry use cases.  Students will also download and explore
-  Kafka.
-id: ca0aa20a-3191-11ec-8d3d-0242ac130003
-video_last_updated: "2022-05-06T09:47:28.594608"
-video_url: https://www.youtube.com/embed/7JN6NnPDlGs
-prerequisites:
-  - d59664af-e709-410c-a373-607f0bc7abc5

@@ -1,4 +1,0 @@
-id: dedeaf80-8f54-47f3-8dec-8d04fea78a51
-description: Learn how to save sklearn models once you've fit them, and how to load them back in after
-prerequisites:
-  - 26aa580c-6acb-4359-8ba9-9c219996b409

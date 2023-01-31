@@ -1,9 +1,0 @@
-id: f31dfbbe-2092-488c-8d24-20f1e9024b45
-description: Learn how to program in the most popular programming language for working with machine learning and data, Python.
-# prerequisites:
-#   - module:command line
-#   - module:git & github
-# tags:
-#   - python
-prerequisites:
-  - id: 5fd4720c-6251-43a7-a218-c48e36557bff # git and github

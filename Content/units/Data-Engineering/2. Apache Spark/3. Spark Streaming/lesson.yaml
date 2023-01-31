@@ -1,4 +1,0 @@
-id: 76a732d7-3224-4f1a-bc5d-4d693539d510
-description: Another useful tool in the Apache stack is Streaming, which allows you to stream data from a source to a destination without having to store the data in memory. In this lesson, we will learn how to stream data in real time using the python library pyspark.streaming.
-prerequisites:
-  - 87734538-9348-4dbb-9870-d0e951e86899

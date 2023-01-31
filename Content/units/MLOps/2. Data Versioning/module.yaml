@@ -1,6 +1,0 @@
-id: 350b20b5-bdd5-42a9-a156-3778625dce15
-description: Learn the concept of Data Versioning to keep track of large files and their versions using DVC.
-prerequisites:
-  - id: 5fd4720c-6251-43a7-a218-c48e36557bff # GitHub
-  - id: 308353e8-ff14-46f2-9405-b86d958c4cf0 # Intro to MLOps
-  - id: 5f912335-2c00-4c94-bb8f-4610191ca1e8 # Essential Cloud Technology

@@ -1,5 +1,0 @@
-id: 13abf8f5-12ae-47bf-b1ab-01351ed6af4f
-description: Discover Feature Stores, a useful tool when working with new features that have been engineered.
-prerequisites:
-  - id: 308353e8-ff14-46f2-9405-b86d958c4cf0 # Intro to MLOps
-  - id: 5f912335-2c00-4c94-bb8f-4610191ca1e8 # Essential Cloud Technology

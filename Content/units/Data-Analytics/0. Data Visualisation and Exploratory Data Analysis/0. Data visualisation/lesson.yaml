@@ -1,5 +1,0 @@
-id: 5c42936e-e9d3-4821-b6fd-1bb18adfa226
-description: Learn why EDA (Exploratory Data Analysis) is required, and practise visualising your data using the appropriate plots.
-prerequisites:
-  - 1e915112-889d-428b-905b-b8cf4bdce0bf # Imports and Context Mangers
-  - 7e5a5266-ea05-4aa6-9bbe-b8affd65e280 # Pandas - Concepts and Dataframe Operations

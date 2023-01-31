@@ -1,5 +1,0 @@
-id: 79517a55-42c6-4e7a-b2cb-6fb80949b773
-description: Discover Dynamic Programming, an algorithm that divides a problem into subproblems, and stores the results of said subproblems, so that it doesn't have to compute it again.
-prerequisites:
-  - a5378de1-4913-409c-bbbb-277a23f2a5f5
-  - b843cffa-e102-4c24-ba91-7e07acff1903

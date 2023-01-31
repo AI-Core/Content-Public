@@ -1,7 +1,0 @@
-id: ec099114-05ce-4299-96da-8b372b4f432d
-description: Learn about AWS, its main page, and its main features, as well as how to create an RDS and connect Python to it.
-video_url: https://youtube.com/embed/pTfzx6tHhjo
-prerequisites:
-  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9
-  - 13308eb8-cd86-4e7e-b91a-271e01020dc9
-  - 84a9c4c6-3bb2-4095-a96a-6d4ec15498c3 # Psycopg2 and SQLalchemy

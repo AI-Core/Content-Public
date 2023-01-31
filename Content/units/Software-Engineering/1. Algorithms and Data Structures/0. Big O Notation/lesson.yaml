@@ -1,7 +1,0 @@
-id: b35302ef-4a30-45f0-aa61-14c48fbd8d79
-description: Learn about Big O notation, which gives a generalized way to express time and space complexity.
-prerequisites:
-  - 6556d991-bdd0-4e97-bfb1-c9355f34a868
-  - 4223a361-1776-424d-a561-1f8fb0260862
-  - 96a873c0-3f66-455d-b672-41c29ca73f0d
-  - fe326a2c-9098-4a17-9ce6-85789bddc260

@@ -1,5 +1,0 @@
-id: 308353e8-ff14-46f2-9405-b86d958c4cf0
-description: Cover an introduction to MLOps and learn what it is, how it should be applied, and what benefits it can bring to your organisation.
-prerequisites:
-  - id: dae521a4-80ac-40a3-bbc2-d6a7779f9de0 # Intro to ML
-  - id: 2aa91238-20dc-410d-bfe9-fbbb935b4709  # Intro to Cloud and DevOps

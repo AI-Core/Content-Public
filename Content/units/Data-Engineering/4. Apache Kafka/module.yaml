@@ -1,4 +1,0 @@
-id: 7f20825c-3199-11ec-8d3d-0242ac130003
-description: This module focuses on Apache Kafka and provides a detailed explanation on the architecture, use cases, components, API's and integration in addition to hands-on work with Kafka.
-prerequisites:
-  - id: 5f702168-a8de-4402-add0-6af5a0262ef6 # apache airflow

@@ -1,1 +1,0 @@
-rooms, zipcode, median_price, school_rating, transport

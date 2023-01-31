@@ -1,4 +1,0 @@
-id: 51911a90-cb6b-4455-810a-940ffcb63bd3
-description: Learn the basics of SQL, how to Read, Create, Update, and Delete a table, as well as making efficient queries to perform the mentioned operations. Learn how to connect Python to your database using the psycopg2 and SQLAlchemy libraries.
-prerequisites:
-  - id: 43bd7ba0-8032-4020-bc94-d0e6b00034b0 # data format and pandas

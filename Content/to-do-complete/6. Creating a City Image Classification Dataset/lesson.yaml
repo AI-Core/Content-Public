@@ -1,8 +1,0 @@
-id:
-description: Work through an exapmle of building a Pytorch dataset for classifying images of different cities.
-prerequisites:
-  - 2097084f-788c-4326-8f4f-b421c4eef1a0
-  - 6e24dcd1-2e31-46c2-a83e-0b03eff05006
-type: demo
-demo-series: # series id
-series-lesson-idx: # idx in series

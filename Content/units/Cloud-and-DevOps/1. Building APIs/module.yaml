@@ -1,4 +1,0 @@
-id: ddf73e11-7b56-4943-94c8-b8731e0e9b65
-description: Learn how to build APIs and containerise your applications so that they are easy to reproduce.
-prerequisites:
-  - id: 38fe6a4d-f937-4ef2-8bd9-305da0223cd4 # data collection

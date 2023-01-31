@@ -1,4 +1,0 @@
-id: d7c847fb-ebd0-4016-99ae-9050e27342db
-description: Learn to and understand how Support Vector Machines(SVMs) work, learn the kernel trick and use SKLearn to implement an SVM.
-prerequisites:
-  - 26aa580c-6acb-4359-8ba9-9c219996b409

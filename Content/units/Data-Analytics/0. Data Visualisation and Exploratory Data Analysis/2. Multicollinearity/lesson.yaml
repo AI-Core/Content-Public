@@ -1,4 +1,0 @@
-id: 2692d14d-f02a-4b28-a89c-64df1a43d89f
-description: Learn what mullticollinearity is, how to identify it, and remove variables which might be too highly correlated to improve your models performance.
-prerequisites:
-  - 3fad431d-917f-4989-abc8-6d22d2961e37

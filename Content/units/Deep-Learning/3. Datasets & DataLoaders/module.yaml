@@ -1,4 +1,0 @@
-id: 434e8343-18f9-449f-868b-dc92f6032771
-description: Learn how to build datasets and to use DataLoaders to batch examples, shuffle the dataset, and more
-# prerequisites:
-#   - id: e78adb89-dabb-488d-b8dc-0f8a321bcfe3

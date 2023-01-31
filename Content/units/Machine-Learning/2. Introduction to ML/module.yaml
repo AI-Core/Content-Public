@@ -1,7 +1,0 @@
-id: dae521a4-80ac-40a3-bbc2-d6a7779f9de0
-description: Learn how to implement the core concepts of a machine learning model. Build, assess, optimise and regularise a model so that it can generalise well to unseen data. 
-prerequisites:
-  - id: f31dfbbe-2092-488c-8d24-20f1e9024b45 # python programming
-  - id: 3cf7e51f-6122-4e8a-b8d7-25bf65f1329c
-  - id: e5436c03-e93c-48cb-8c1d-00fc3fde9850
-  

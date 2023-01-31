@@ -1,4 +1,0 @@
-id: 0f76f840-cd60-4e9a-9fd6-ab963d67a327
-description: This lesson will teach you what clustering is, understand and implement the popular K-means clustering algorithm using SKLearn.
-prerequisites:
-  - 26aa580c-6acb-4359-8ba9-9c219996b409

@@ -1,5 +1,0 @@
-id: bdf26d3b-1b8e-4b3e-bb90-cbca70df1512
-description: Learn how to use the embedded terminal in VSCode
-prerequisites:
-  - 7e0fc1d3-42ad-420f-ad7f-4e5b1359233d # Running terminal commands
-  - f227e021-88bf-4cb6-97cf-73bd8a0fa612 # A tour of VSCode

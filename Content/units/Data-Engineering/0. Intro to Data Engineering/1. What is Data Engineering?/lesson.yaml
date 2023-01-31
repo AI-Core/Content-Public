@@ -1,6 +1,0 @@
-id: dc93dd36-45fd-4d3e-b8a6-6898d9b1cb45
-description: Learn the main concepts of Data Engineering. Understand the data ecosystem layers, and the function of each layer.
-prerequisites:
-  - b156a1b6-0f2a-49e1-9c7c-3b479db85711
-  - ca6cc39f-9ec6-4863-bdb8-d2242be855e3
-  - 84a9c4c6-3bb2-4095-a96a-6d4ec15498c3 #psycopg2 and SQLAlchemy

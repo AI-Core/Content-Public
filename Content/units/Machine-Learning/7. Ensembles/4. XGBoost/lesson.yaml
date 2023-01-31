@@ -1,4 +1,0 @@
-id: bd25e1b5-81f0-4cd9-a618-c93d2a49ca0e
-description: Implement the XGBoost algorithm in both a regression and classification tree model using SKLearn.
-prerequisites:
-  - 80233b52-6152-409f-b686-c9cfb9fde3d1

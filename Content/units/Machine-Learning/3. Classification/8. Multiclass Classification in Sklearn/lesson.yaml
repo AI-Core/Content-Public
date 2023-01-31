@@ -1,7 +1,0 @@
-description: Learn about multiclass classification and the differences between binary classification, understand one-hot encoding, and understand the cross-entropy loss function.
-id: 776fec70-0835-4e53-a655-7f83e1aec42a
-video_last_updated: "2022-05-05T00:23:53.889528"
-video_url: https://www.youtube.com/embed/2ppP_bnhoKY
-prerequisites:
-  - e6991438-bdcd-4170-9e28-a9e7d8ab3569
-  # - 757b15ee-d471-4f53-b368-7dd2df60cdc2

@@ -1,4 +1,0 @@
-id: ab8dba5e-5bd2-4e09-8d00-32ba8484596c
-description: This lesson will teach you how to test and validate your model, it will teach you how to properly split your data to prevent data leakage and how to seed your model for reproducibility.
-prerequisites:
-  - 54d541f6-987b-461e-a64b-1c3e76e810c5

@@ -1,4 +1,0 @@
-id: d471d58f-38cc-4071-a192-dce48a756f95
-description: Learning why monitoring and observability are important to implement post deployment for ensuring that your model functions how you expect, and that you can fix it quickly if it doesn't.
-prerequisites:
-  - f0732552-323d-4cd3-a0dc-58b14a13d129

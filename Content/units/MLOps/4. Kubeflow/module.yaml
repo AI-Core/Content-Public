@@ -1,8 +1,0 @@
-id: 49219aae-c770-4ae4-885e-1695f510bf67
-description: Learn about the Machine Learning Toolkit for Kubernetes
-prerequisites:
-  - id: 308353e8-ff14-46f2-9405-b86d958c4cf0 # Intro to MLOPs
-  - id: f7ffc03c-84f1-4ee2-a6e0-6feb040021df # Supervised Models
-  - id: 2c1a3fe9-9cd1-48af-90f0-e900dc2d78ee # Ensembles
-  - id: 832c7816-de65-4d76-9336-c6845e78b34b # Kubernetes
-  

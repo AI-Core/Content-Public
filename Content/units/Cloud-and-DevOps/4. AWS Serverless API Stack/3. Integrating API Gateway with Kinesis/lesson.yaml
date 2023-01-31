@@ -1,6 +1,0 @@
-id: 0360fe37-e7f5-4358-ab34-5f44ad1a09bd
-description: Learn how to integrate API Gateway with AWS Kinesis
-prerequisites:
-  - 5ee37689-e7cd-446f-a641-3b992db1d684 #API Gateway
-  - 1b045114-5308-419a-bdcb-d5979f4a8090 # AWS Kinesis
-  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9 # What is AWS

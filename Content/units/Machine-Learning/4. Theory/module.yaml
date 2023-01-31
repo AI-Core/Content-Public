@@ -1,5 +1,0 @@
-id: 6a76d7fb-72e8-4e18-8be4-3c577a5a9d08
-description: Learn what it means to mathematically find optimal parameters and determine the confidence in those parameters. Get familiar with the metrics used to assess the performance of your model and which to select for regression and classification tasks. 
-prerequisites:
-  - id: 814271ad-3cce-4b81-bf1e-8420d64f2b8c
-  - id: dae521a4-80ac-40a3-bbc2-d6a7779f9de0

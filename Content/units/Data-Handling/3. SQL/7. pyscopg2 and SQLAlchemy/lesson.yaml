@@ -1,5 +1,0 @@
-id: 84a9c4c6-3bb2-4095-a96a-6d4ec15498c3
-description: Learn how to connect Python to a SQL database using psycopg2 and SQLAlchemy.
-prerequisites:
-  - c7ace46d-395a-47fe-b311-fd3b604270c0
-  - 1e915112-889d-428b-905b-b8cf4bdce0bf

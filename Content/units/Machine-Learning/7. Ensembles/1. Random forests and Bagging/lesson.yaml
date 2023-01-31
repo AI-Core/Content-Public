@@ -1,4 +1,0 @@
-id: 8c04655f-1322-4192-b307-fbe5a7748de8
-description: An introduction to ensembles, learn how to bootstrap and apply bagging to datasets to create ensembles. Learn about the ensemble to decision trees the Random Forest and implement it in SKLearn.
-prerequisites:
-  - 26aa580c-6acb-4359-8ba9-9c219996b409
