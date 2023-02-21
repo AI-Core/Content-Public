@@ -1,0 +1,410 @@
+[
+  {
+    "task_id": "63f14eeb2aef3daa321dc0e0",
+    "created_at": "2023-02-18T22:19:23.192Z",
+    "completed_at": "2023-02-18T22:20:31.288Z",
+    "type": "textcollection",
+    "status": "completed",
+    "instruction": "",
+    "instructionObjectId": "63f14eb3ba6b1c9184b5f318",
+    "params": {
+      "fields": [
+        {
+          "type": "text",
+          "field_id": "response",
+          "title": "Response",
+          "required": true
+        }
+      ],
+      "attachments": [
+        {
+          "type": "text",
+          "content": "The best reasons to study at Oxford university:\n- Full of culture\n- Attracts great people\n- Excellent staff"
+        }
+      ]
+    },
+    "is_test": false,
+    "urgency": "standard",
+    "metadata": {
+      "upload_group_id": "2023-02-18 22:16:36:4",
+      "upload_source": "csv"
+    },
+    "processed_attachments": [],
+    "project": "Supervised Fine-Tuning",
+    "priority": 0,
+    "postProcessingResults": {},
+    "attachmentS3Downloads": [],
+    "customer_review_status": "accepted",
+    "customer_review_comments": [
+      ""
+    ],
+    "prior_responses": [],
+    "response": {
+      "annotations": {
+        "response": "- Every college has its own bar and drink"
+      }
+    },
+    "unique_id": "63f14ee9a1c24b7818228468:63f14e4542d725a01bb09854",
+    "project_param_version": 1,
+    "customer_reviewed_by": "harry@theaicore.com",
+    "customer_audit_time_secs": 27.655,
+    "customer_audit_active_time_secs": 27.655,
+    "customer_audited_at": "2023-02-18T23:57:54.675Z",
+    "audits": [
+      {
+        "audited_by": "harry@theaicore.com",
+        "audited_at": "2023-02-18T23:57:54.675Z",
+        "audit_time_secs": 27.655,
+        "audit_active_time_secs": 27.655,
+        "audit_result": "accepted",
+        "audit_source": "customer"
+      }
+    ],
+    "projectId": "63f14e3be2bc5fee43a7024d",
+    "batch": "First",
+    "batchId": "63f14ee9a1c24b7818228468",
+    "updated_at": "2023-02-18T23:57:55.359Z",
+    "work_started": true,
+    "isProcessed": false,
+    "attempts": [
+      {
+        "attemptVersion": 0,
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "- Every college has its own bar and drink"
+              ]
+            }
+          }
+        },
+        "attemptedBy": "harryaberg@gmail.com",
+        "activeTimeSpentSecs": 48.124,
+        "totalTimeSpentSecs": 48.124,
+        "attemptedAt": "2023-02-18T22:20:28.578Z",
+        "isReview": false
+      }
+    ],
+    "customer_labeled": false,
+    "isEdgeCase": false,
+    "pipelineName": "standard_task",
+    "projectPipeline": "standard_task",
+    "responseHistory": [
+      {
+        "_id": "63f14f2c77e204f809c17828",
+        "createdAt": "2023-02-18T22:20:28.578Z",
+        "source": "tasker",
+        "taskerId": "harryaberg@gmail.com",
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "- Every college has its own bar and drink"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_id": "63f16602ed3039f7ebd4bd29",
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "- Every college has its own bar and drink"
+              ]
+            }
+          }
+        },
+        "source": "customeraudit",
+        "createdAt": "2023-02-18T23:57:54.675Z",
+        "perAnnotationErrors": []
+      }
+    ]
+  },
+  {
+    "task_id": "63f14eeb2aef3daa321dc0df",
+    "created_at": "2023-02-18T22:19:23.208Z",
+    "completed_at": "2023-02-18T22:22:22.998Z",
+    "type": "textcollection",
+    "status": "completed",
+    "instruction": "",
+    "instructionObjectId": "63f14eb3ba6b1c9184b5f318",
+    "params": {
+      "fields": [
+        {
+          "type": "text",
+          "field_id": "response",
+          "title": "Response",
+          "required": true
+        }
+      ],
+      "attachments": [
+        {
+          "type": "text",
+          "content": "Tell me a story about the best lecture ever hosted at Oxford"
+        }
+      ]
+    },
+    "is_test": false,
+    "urgency": "standard",
+    "metadata": {
+      "upload_group_id": "2023-02-18 22:16:36:3",
+      "upload_source": "csv"
+    },
+    "processed_attachments": [],
+    "project": "Supervised Fine-Tuning",
+    "priority": 0,
+    "postProcessingResults": {},
+    "attachmentS3Downloads": [],
+    "response": {
+      "annotations": {
+        "response": "A lecturer built a robot live on stage, then had it walk around the lecture theatre helping each student with their problem sets. Little did he expect that soon the robot would enrol in the course, complete the material and enter this years exam, pass with flying colors and then proceed to replace the lecturers position in the faculty."
+      }
+    },
+    "unique_id": "63f14ee9a1c24b7818228468:63f14e44df05321572cb94e8",
+    "project_param_version": 1,
+    "projectId": "63f14e3be2bc5fee43a7024d",
+    "batch": "First",
+    "batchId": "63f14ee9a1c24b7818228468",
+    "updated_at": "2023-02-18T22:23:36.314Z",
+    "work_started": true,
+    "isProcessed": false,
+    "attempts": [
+      {
+        "attemptVersion": 0,
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "A lecturer built a robot live on stage, then had it walk around the lecture theatre helping each student with their problem sets. Little did he expect that soon the robot would enrol in the course, complete the material and enter this years exam, pass with flying colors and then proceed to replace the lecturers position in the faculty."
+              ]
+            }
+          }
+        },
+        "attemptedBy": "harryaberg@gmail.com",
+        "activeTimeSpentSecs": 91.189,
+        "totalTimeSpentSecs": 91.189,
+        "attemptedAt": "2023-02-18T22:22:20.363Z",
+        "isReview": false
+      }
+    ],
+    "customer_labeled": false,
+    "isEdgeCase": false,
+    "pipelineName": "standard_task",
+    "projectPipeline": "standard_task",
+    "responseHistory": [
+      {
+        "_id": "63f14f9c190b134256338d35",
+        "createdAt": "2023-02-18T22:22:20.363Z",
+        "source": "tasker",
+        "taskerId": "harryaberg@gmail.com",
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "A lecturer built a robot live on stage, then had it walk around the lecture theatre helping each student with their problem sets. Little did he expect that soon the robot would enrol in the course, complete the material and enter this years exam, pass with flying colors and then proceed to replace the lecturers position in the faculty."
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "63f14eeb2aef3daa321dc0dd",
+    "created_at": "2023-02-18T22:19:23.208Z",
+    "completed_at": "2023-02-18T22:20:50.847Z",
+    "type": "textcollection",
+    "status": "completed",
+    "instruction": "",
+    "instructionObjectId": "63f14eb3ba6b1c9184b5f318",
+    "params": {
+      "fields": [
+        {
+          "type": "text",
+          "field_id": "response",
+          "title": "Response",
+          "required": true
+        }
+      ],
+      "attachments": [
+        {
+          "type": "text",
+          "content": "In what year was Oxford University founded?"
+        }
+      ]
+    },
+    "is_test": false,
+    "urgency": "standard",
+    "metadata": {
+      "upload_group_id": "2023-02-18 22:16:36:1",
+      "upload_source": "csv"
+    },
+    "processed_attachments": [],
+    "project": "Supervised Fine-Tuning",
+    "priority": 0,
+    "postProcessingResults": {},
+    "attachmentS3Downloads": [],
+    "response": {
+      "annotations": {
+        "response": "1096"
+      }
+    },
+    "unique_id": "63f14ee9a1c24b7818228468:63f14e4477ee1d15933ab6c4",
+    "project_param_version": 1,
+    "projectId": "63f14e3be2bc5fee43a7024d",
+    "batch": "First",
+    "batchId": "63f14ee9a1c24b7818228468",
+    "updated_at": "2023-02-18T22:23:36.314Z",
+    "work_started": true,
+    "isProcessed": false,
+    "attempts": [
+      {
+        "attemptVersion": 0,
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "1096"
+              ]
+            }
+          }
+        },
+        "attemptedBy": "harryaberg@gmail.com",
+        "activeTimeSpentSecs": 16.394,
+        "totalTimeSpentSecs": 16.394,
+        "attemptedAt": "2023-02-18T22:20:47.804Z",
+        "isReview": false
+      }
+    ],
+    "customer_labeled": false,
+    "isEdgeCase": false,
+    "pipelineName": "standard_task",
+    "projectPipeline": "standard_task",
+    "responseHistory": [
+      {
+        "_id": "63f14f405f32cb4e39706593",
+        "createdAt": "2023-02-18T22:20:47.804Z",
+        "source": "tasker",
+        "taskerId": "harryaberg@gmail.com",
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "1096"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "63f14eeb2aef3daa321dc0dc",
+    "created_at": "2023-02-18T22:19:23.208Z",
+    "completed_at": "2023-02-18T22:23:36.186Z",
+    "type": "textcollection",
+    "status": "completed",
+    "instruction": "",
+    "instructionObjectId": "63f14eb3ba6b1c9184b5f318",
+    "params": {
+      "fields": [
+        {
+          "type": "text",
+          "field_id": "response",
+          "title": "Response",
+          "required": true
+        }
+      ],
+      "attachments": [
+        {
+          "type": "text",
+          "content": "What makes a certain college better than others at Oxford?"
+        }
+      ]
+    },
+    "is_test": false,
+    "urgency": "standard",
+    "metadata": {
+      "upload_group_id": "2023-02-18 22:16:36:2",
+      "upload_source": "csv"
+    },
+    "processed_attachments": [],
+    "project": "Supervised Fine-Tuning",
+    "priority": 0,
+    "postProcessingResults": {},
+    "attachmentS3Downloads": [],
+    "response": {
+      "annotations": {
+        "response": "A better looking crest that appears on all college merch"
+      }
+    },
+    "unique_id": "63f14ee9a1c24b7818228468:63f14e44b2d68e48c8d12905",
+    "project_param_version": 1,
+    "projectId": "63f14e3be2bc5fee43a7024d",
+    "batch": "First",
+    "batchId": "63f14ee9a1c24b7818228468",
+    "updated_at": "2023-02-18T22:23:36.793Z",
+    "work_started": true,
+    "isProcessed": false,
+    "attempts": [
+      {
+        "attemptVersion": 0,
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "A better looking crest that appears on all college merch"
+              ]
+            }
+          }
+        },
+        "attemptedBy": "harryaberg@gmail.com",
+        "activeTimeSpentSecs": 71.844,
+        "totalTimeSpentSecs": 71.844,
+        "attemptedAt": "2023-02-18T22:23:33.714Z",
+        "isReview": false
+      }
+    ],
+    "customer_labeled": false,
+    "isEdgeCase": false,
+    "pipelineName": "standard_task",
+    "projectPipeline": "standard_task",
+    "responseHistory": [
+      {
+        "_id": "63f14fe6b32b12ae658afc84",
+        "createdAt": "2023-02-18T22:23:33.714Z",
+        "source": "tasker",
+        "taskerId": "harryaberg@gmail.com",
+        "response": {
+          "annotations": {
+            "response": {
+              "type": "text",
+              "field_id": "response",
+              "response": [
+                "A better looking crest that appears on all college merch"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+]

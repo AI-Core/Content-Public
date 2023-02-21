@@ -1,0 +1,18 @@
+[
+    {
+        "prompt": "The best reasons to study at Oxford university:\n- Full of culture\n- Attracts great people\n- Excellent staff",
+        "response": "- Every college has its own bar and drink"
+    },
+    {
+        "prompt": "Tell me a story about the best lecture ever hosted at Oxford",
+        "response": "A lecturer built a robot live on stage, then had it walk around the lecture theatre helping each student with their problem sets. Little did he expect that soon the robot would enrol in the course, complete the material and enter this years exam, pass with flying colors and then proceed to replace the lecturers position in the faculty."
+    },
+    {
+        "prompt": "In what year was Oxford University founded?",
+        "response": "1096"
+    },
+    {
+        "prompt": "What makes a certain college better than others at Oxford?",
+        "response": "A better looking crest that appears on all college merch"
+    }
+]
