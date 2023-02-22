@@ -1,19 +1,25 @@
 # %%
 import json
 from pprint import pprint
+from glob import glob
 
-with open('tasks.json') as f:
-    tasks = json.load(f)
+task_files = glob('tasks*.json')
+print("Collating task files:", task_files)
 
-tasks = [
-    {
-        "prompt": task["params"]["attachments"][0]["content"],
-        "response": task["response"]["annotations"]["response"],
-    }
-    for task in tasks
-]
+tasks = []
+for idx, fn in enumerate(task_files):
+    with open(fn) as f:
+        data = json.load(f)
+
+    tasks.extend([
+        {
+            "prompt": task["params"]["attachments"][0]["content"],
+            "response": task["response"]["annotations"]["response"],
+        }
+        for task in data if "response" in task
+    ])
 pprint(tasks)
 
-with open('raw_data.json', 'w') as f:
+with open(f'raw_data.json', 'w') as f:
     json.dump(tasks, f, indent=4)
-# %%
+    # %%
