@@ -53,3 +53,16 @@ def check_step_5(
         "By default, Python returns a float when performing a division operation, "
         "but it returns an integer when performing a floor division operation."
     )
+
+def check_step_6(
+    d_type: str,
+) -> None:
+    assert isinstance(d_type, str), \
+        ("The value of 'd_type' is incorrect. It should be a string. "
+         "Please, make sure you are using the form in this cell")
+    assert d_type == "int", \
+        ("The value of 'd_type' is incorrect. Please, try again.")
+    print(
+        "\033[92m\N{heavy check mark} Well done! A floor division operation returns an integer."
+    )
+

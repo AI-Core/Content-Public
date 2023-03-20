@@ -1,0 +1,33 @@
+{
+  "Data": "Employees",
+  "Number of Employees": 3,
+  "Employees": [
+    {
+      "userId": "28e0a8ff-3a16-46be-be7e-94dc7f67a7d1",
+      "jobTitle": "Developer",
+      "firstName": "Albin",
+      "lastName": "Bailey",
+      "employeeCode": "E1",
+      "region": "CA",
+      "phoneNumber": "123456"
+    },
+    {
+      "userId": "ebeb806d-82ec-4c0e-9a91-328fddec94a3",
+      "jobTitle": "Developer",
+      "firstName": "Carlos",
+      "lastName": "Diaz",
+      "employeeCode": "E2",
+      "region": "CA",
+      "phoneNumber": "1111111"
+    },
+    {
+      "userId": "facbd40a-53cd-4357-9dac-e85d8bcc0636",
+      "jobTitle": "Program Directory",
+      "firstName": "Eugene",
+      "lastName": "Faraday",
+      "employeeCode": "E3",
+      "region": "CA",
+      "phoneNumber": "2222222"
+    }
+  ]
+}

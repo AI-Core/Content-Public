@@ -71,17 +71,23 @@ def check_step_4(
         ("The type of 'user_example' is incorrect, it should be a string. "
          "Please, make sure you created it using the `pop` method on 'usernames_2'.")
 
-    usernames_2_expected = usernames_2.copy()
-    assert usernames_2_expected == usernames[-5:], \
+    usernames_2_expected = usernames.copy()[-5:]
+    user_example_expected = usernames_2_expected.pop(1)
+    
+    assert usernames_2_expected == usernames_2, \
         ("The value of 'usernames_2' is incorrect. "
          "Please, run the cell above again to create the variable 'usernames_2'. "
          "Its value should be a copy of the last five elements of 'usernames'.")
 
-    user_example_expected = usernames_2_expected.pop(1)
-
     assert user_example == user_example_expected, \
         ("The value of 'user_example' is incorrect. "
          "Please, make sure you created it using the `pop` method on 'usernames_2'.")
+    
+    print(
+        "\033[92m\N{heavy check mark} Well done! "
+        "You have successfully popped the second element of 'usernames_2' and "
+        "stored it in the variable 'user_example'."
+    )
     
 
 def check_step_5(
@@ -105,7 +111,6 @@ def check_step_5(
 
 def check_step_6(
     usernames: list,
-    user_example: str,
     idx_user_example: int,
     upper_user_example: str,
 ) -> None:
@@ -116,9 +121,6 @@ def check_step_6(
     assert isinstance(usernames, list), \
         ("The value of 'usernames' is incorrect. "
          "Please, run the cell in step 1 again to create the variable 'usernames'.")
-    assert isinstance(user_example, str), \
-        ("The type of 'user_example' is incorrect, it should be a string. "
-         "Please, make sure you created it using the `pop` method on 'usernames_2'.")
     assert isinstance(idx_user_example, int), \
         ("The type of 'idx_user_example' is incorrect, it should be an integer. "
          "Please, make sure you created it using the `index` method on 'usernames'.")

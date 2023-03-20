@@ -1,8 +1,12 @@
 def check_step_1(
     test_string: str,
+    second_char: str,
 ) -> None:
     assert isinstance(test_string, str), "The value of 'test_string' is incorrect. It should be a string."
+    assert isinstance(second_char, str), "The value of 'second_char' is incorrect. It should be a string."
+
     assert test_string == "hello", "The value of 'test_string' is incorrect. It should be 'hello'."
+    assert second_char == "e", "The value of 'second_char' is incorrect. It should be 'e'."
     print(
         "\033[92m\N{heavy check mark} Well done! "
         "You have successfully assigned the string 'hello' to the variable 'test_string'."
@@ -34,6 +38,21 @@ def check_step_2(
         )
 
 def check_step_3(
+    s: str,
+) -> None:
+    assert isinstance(s, str), \
+        "The value of 's' is incorrect. It should be a string."
+    expected_s = 'The quick brown fox jumps over the lazy dog'
+    expected_s.replace("o", "*")
+    assert s == expected_s, \
+        ("The value of 's' is incorrect. It should be a string with the following content: "
+         f"{expected_s}")
+    print(
+        "\033[92m\N{heavy check mark} Well done! "
+        "You have successfully changed the 'o' characters in the string 's'."
+    )
+
+def check_step_4(
     my_sentence: str,
     sentence_length: int,
 ) -> None:
