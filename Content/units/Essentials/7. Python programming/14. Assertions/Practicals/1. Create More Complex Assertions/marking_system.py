@@ -1,214 +1,163 @@
 import os
 from unittest.mock import patch
 import timeout_decorator
+import io
+from contextlib import redirect_stdout
+
+class NameAssertionError(Exception):
+    def __init__(self, message=None):
+        if message is None:
+            message = "The output is not correct."
+        super().__init__(message)
 
 @timeout_decorator.timeout(5, timeout_exception=TimeoutError)
-def check_step_1() -> None:
-    file_to_run = 'assertions.py'
-    assert file_to_run in os.listdir(), (
-        "You haven't created the file 'assertions.py'. "
-        "Please, create it and try again."
-    )
-    with open(file_to_run, 'r') as f:
-        users_code = f.read()
-
+def check_step_1(
+    users_code: str,
+) -> None:
     assert len(users_code) > 0, (
         "Your code is empty. "
         "Please, try again."
     )
-    assert "input" in users_code, (
-        "Your code does not contain the input() function. "
-        "You need to ask the user for a name. "
-        "Please, try again."
-    )
-    assert "age" in users_code, (
-        "Your code does not contain the age variable. "
-        "You need to ask the user for an age and store it in a variable. "
-        "Please, try again."
-    )
-    assert "name" in users_code, (
-        "Your code does not contain the name variable. "
-        "You need to ask the user for a name and store it in a variable. "
-        "Please, try again."
-    )
-    print(
-        "\033[92m\N{heavy check mark} Well done! "
-        "You successfully created a simple assertion that checks "
-        "if the user's name is John."
-    )
-
-@timeout_decorator.timeout(5, timeout_exception=TimeoutError)
-def check_step_2() -> None:
-    file_to_run = 'assertions.py'
-    assert file_to_run in os.listdir(), (
-        "You haven't created the file 'assertions.py'. "
-        "Please, create it and try again."
-    )
-    with open(file_to_run, 'r') as f:
-        users_code = f.read()
-
-    assert len(users_code) > 0, (
-        "Your code is empty. "
-        "Please, try again."
-    )
-    assert "input" in users_code, (
-        "Your code does not contain the input() function. "
-        "You need to ask the user for a name. "
-        "Please, try again."
-    )
-    assert "age" in users_code, (
-        "Your code does not contain the age variable. "
-        "You need to ask the user for an age and store it in a variable. "
-        "Please, try again."
-    )
-    assert "name" in users_code, (
-        "Your code does not contain the name variable. "
-        "You need to ask the user for a name and store it in a variable. "
+    assert 'name = input("Please, enter your name: ")' in users_code, (
+        "Your code does not contain the line 'name = input(\"Please, enter your name: \")'. "
+        "Please, don't delete the code above the line that says '# Add your code below this line'."
         "Please, try again."
     )
     assert "assert" in users_code, (
         "Your code does not contain the assert statement. "
-        "You need to assert that the name is John and the age is 20. "
+        "You need to assert that the name is John. "
         "Please, try again."
     )
     try:
         # Run the file using two inputs
-        with patch('builtins.input', side_effect=['John', '20']):
-            os.system(f'python {file_to_run} > output.txt')
-        with open('output.txt', 'r') as f:
-            output = f.read()
-        assert 'Hello, John' in output, (
-            "Your code does not print the correct output. "
-            "When the user inputs 'John', the output should be 'Hello, John!', "
-            "but your code printed: "
-            f"{output}"
-        )
-        with patch('builtins.input', side_effect=['Jane', '20']):
-            os.system(f'python {file_to_run} 2> output.txt')
-        with open('output.txt', 'r') as f:
-            output = f.read()
-        assert 'You are not John' in output, (
-            "Your code does not print the correct output. "
-            "When the user enters a name other than 'John', the output should be "
-            "'You are not John', but your code printed: "
-            f"{output}"
-        )
+        f = io.StringIO()
+        with redirect_stdout(f):
+            with patch('builtins.input', side_effect=['John', 20]):
+                exec(users_code)
+        output_1 = f.getvalue()
+        if 'Hello, John' not in output_1:
+            raise NameAssertionError(
+                "Your code does not print the correct output. "
+                "The marking system tried to run your code with the inputs 'John' and '20'. "
+                "The output should be 'Hello, John', but your code printed: \n"
+                f"{output_1}"
+                "Please, try again.")
+        if 'You are old enough to vote' not in output_1:
+            raise NameAssertionError(
+                "Your code does not print the correct output. "
+                "The marking system tried to run your code with the input 'John' and '20'. "
+                "The output should be 'You are old enough to vote', but your code printed: \n"
+                f"{output_1}"
+                "Please, try again.")
 
+        f = io.StringIO()
+        with redirect_stdout(f):
+            with patch('builtins.input', side_effect=['Jane', 17]):
+                exec(users_code)
+        output_1 = f.getvalue()
+    except StopIteration as e:
+        raise TimeoutError(
+            "Your code is taking too long to run. "
+            "Make sure you are using only one input function "
+            "and that you haven't used any loops. "
+            "Please, try again.")
     except TimeoutError:
-        assert False, (
+        raise TimeoutError(
             "Your code is taking too long to run. "
             "Have you added another input() function? "
             "If so, please remove it and try again. "
             "If not, make sure there are no loops in your code (e.g. while, for)."
         )
+    except NameAssertionError as e:
+        raise NameAssertionError(e)
+
+    except AssertionError as e:
+        e_message = str(e)
+        if len(e_message) == 0 or "not John" not in e_message:
+            raise NameAssertionError(
+                "Your code does not contain the assert statement. "
+                "If the user's name is John, the code should print 'Hello, John'. "
+                "If it's not, it should print 'You are not John'. "
+                "The marking system tried to run your code with the input 'Jane'. "
+                "And the assertion error was: \n"
+                f"{e}\n"
+                "Please, try again.")
+        else:
+            name_correct = True
+    except ValueError as e:
+        e_message = str(e)
+        if len(e_message) == 0 or "not old enough to vote" not in e_message:
+            raise NameAssertionError(
+                "Your code does not contain the raise statement. "
+                "If the user's age is less than 18, the code should raise a ValueError. "
+                "You can include the raise statement inside the if statement. "
+                "The marking system tried to run your code with the input 'John' and '17'. "
+                "And the assertion error was: \n"
+                f"{e}\n"
+                "Please, try again.")
+        else:
+            name_correct = True
+    except Exception as e:
+        raise NameAssertionError(
+            "Your code is not working. "
+            "The marking system tried to run your code with the input 'Jane'. "
+            "And the error was: \n"
+            f"{e}"
+            "Please, try again.")
 
     else:
-        print(
-            "\033[92m\N{heavy check mark} Well done! "
-            "You successfully created a simple assertion that checks "
-            "if the user's name is John."
-        )
-
-    finally:
-        if "output.txt" in os.listdir():
-            os.remove('output.txt')
-
-@timeout_decorator.timeout(5, timeout_exception=TimeoutError)
-def check_step_2() -> None:
-    file_to_run = 'assertions.py'
-    assert file_to_run in os.listdir(), (
-        "You haven't created the file 'assertions.py'. "
-        "Please, create it and try again."
-    )
-    with open(file_to_run, 'r') as f:
-        users_code = f.read()
-
-    assert len(users_code) > 0, (
-        "Your code is empty. "
-        "Please, try again."
-    )
-    assert "input" in users_code, (
-        "Your code does not contain the input() function. "
-        "You need to ask the user for a name. "
-        "Please, try again."
-    )
-    assert "age" in users_code, (
-        "Your code does not contain the age variable. "
-        "You need to ask the user for an age and store it in a variable. "
-        "Please, try again."
-    )
-    assert "name" in users_code, (
-        "Your code does not contain the name variable. "
-        "You need to ask the user for a name and store it in a variable. "
-        "Please, try again."
-    )
-    assert "assert" in users_code, (
-        "Your code does not contain the assert statement. "
-        "You need to assert that the name is John and the age is 20. "
-        "Please, try again."
-    )
-    assert "int" in users_code, (
-        "Your code does not contain the int() function. "
-        "You need to convert the age to an integer. "
-        "Please, try again."
-    )
+        name_correct = True
 
     try:
         # Run the file using two inputs
-        with patch('builtins.input', side_effect=['John', '20']):
-            os.system(f'python {file_to_run} > output.txt')
-        with open('output.txt', 'r') as f:
-            output = f.read()
-        assert 'Hello, John' in output, (
-            "Your code does not print the correct output. "
-            "When the user inputs 'John', the output should be 'Hello, John!', "
-            "but your code printed: "
-            f"{output}"
-            "If you think your code is correct, the marking system enters "
-            "first the name and then the age ('John' and '20'). "
-        )
-        with patch('builtins.input', side_effect=['Jane', '20']):
-            os.system(f'python {file_to_run} 2> output.txt')
-        with open('output.txt', 'r') as f:
-            output = f.read()
-        assert 'You are not John' in output, (
-            "Your code does not print the correct output. "
-            "When the user enters a name other than 'John', the output should be "
-            "'You are not John', but your code printed: "
-            f"{output}. "
-            "If you think your code is correct, the marking system enters "
-            "first the name and then the age ('Jane' and '20'). "
-        )
-
-        with patch('builtins.input', side_effect=['John', 'twenty']):
-            os.system(f'python {file_to_run} 2> output.txt')
-        with open('output.txt', 'r') as f:
-            output = f.read()
-        assert 'Age is not a number' in output, (
-            "Your code does not print the correct output. "
-            "When the user enters an age that is not an integer, the output should be "
-            "'Age is not a number', but your code printed: "
-            f"{output}. "
-            "If you think your code is correct, the marking system enters "
-            "first the name and then the age ('John' and 'twenty'). "
-        )
-
+        f = io.StringIO()
+        with redirect_stdout(f):
+            with patch('builtins.input', side_effect=['John', 17]):
+                exec(users_code)
+        output_1 = f.getvalue()
+    except StopIteration as e:
+        raise TimeoutError(
+            "Your code is taking too long to run. "
+            "Make sure you are using only one input function "
+            "and that you haven't used any loops. "
+            "Please, try again.")
     except TimeoutError:
-        assert False, (
+        raise TimeoutError(
             "Your code is taking too long to run. "
             "Have you added another input() function? "
             "If so, please remove it and try again. "
             "If not, make sure there are no loops in your code (e.g. while, for)."
         )
+    except NameAssertionError as e:
+        raise NameAssertionError(e)
+    except ValueError as e:
+        e_message = str(e)
+        if len(e_message) == 0 or "not old enough to vote" not in e_message:
+            raise NameAssertionError(
+                "Your code does not contain the raise statement. "
+                "If the user's age is less than 18, the code should raise a ValueError. "
+                "You can include the raise statement inside the if statement. "
+                "The marking system tried to run your code with the input 'John' and '17'. "
+                "And the assertion error was: \n"
+                f"{e}\n"
+                "Please, try again.")
+        else:
+            print(
+                "\033[92m\N{heavy check mark} Well done! "
+                "You successfully created a simple assertion that checks "
+                "if the user's name is John and is old enough to vote."
+            )
+    except Exception as e:
+        raise NameAssertionError(
+            "Your code is not working. "
+            "The marking system tried to run your code with the input 'Jane'. "
+            "And the error was: \n"
+            f"{e}"
+            "Please, try again.")
 
     else:
         print(
             "\033[92m\N{heavy check mark} Well done! "
             "You successfully created a simple assertion that checks "
-            "if the user's name is John and another assertion that checks "
-            "that the number entered is an integer."
+            "if the user's name is John and is old enough to vote."
         )
-
-    finally:
-        if "output.txt" in os.listdir():
-            os.remove('output.txt')
