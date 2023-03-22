@@ -99,7 +99,7 @@ def check_step_3(
     assert ans_x == "70", \
         ("Your answer is incorrect. "
          f"x should contain the first element of the tuple, which is {expected_x}.")
-    assert ans_y == "'AiCore'", \
+    assert ans_y == "AiCore", \
         ("Your answer is incorrect. "
          f"y should contain the second element of the tuple, which is {expected_y}.")
     assert ans_z == "[10, 'Programming', 70]", \
