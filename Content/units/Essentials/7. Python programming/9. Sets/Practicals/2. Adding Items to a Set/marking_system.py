@@ -17,11 +17,11 @@ def is_prime(
 def check_step_1(
     prime_numbers: set,
 ) -> None:
-    initial_prime_numbers = {3, 5, 7, 11, 13}
+    initial_prime_numbers = {2, 3, 5, 7, 11, 13}
     assert isinstance(prime_numbers, set), \
         ("The data type of prime_numbers is incorrect. "
          "It should be a set. Please, rerun the cell in step 1 to create the variable 'prime_numbers'.")
-    assert len(prime_numbers) == 6, \
+    assert len(prime_numbers) == 7, \
         ("The length of prime_numbers is incorrect. "
          "It should be 6 after adding the new element. "
          f"Your set has {len(prime_numbers)} elements.")
@@ -54,7 +54,7 @@ def check_step_2(
     new_set: set,
 ) -> None:
     expected_new_set_length = 3
-    old_prime_numbers = {3, 5, 7, 11, 13}
+    old_prime_numbers = {2, 3, 5, 7, 11, 13}
     assert isinstance(prime_numbers, set), \
         ("The data type of prime_numbers is incorrect. "
          "It should be a set. Please, rerun the cell in step 1 to create the variable 'prime_numbers'.")
@@ -65,7 +65,12 @@ def check_step_2(
         ("The length of new_set is incorrect. "
          "It should contain 3 elements. "
          f"Your set has {len(new_set)} elements.")
-    expected_set = old_prime_numbers.update(new_set)
+    expected_set = old_prime_numbers.copy()
+    for n in expected_set:
+        assert n not in new_set, \
+            ("Your set should not contain any number from the old "
+             f"prime numbers. However, in both sets it found {n}")
+    expected_set.update(new_set)
     assert expected_set == prime_numbers, \
         ("Your set is incorrect. "
          "It should contain the elements from the first prime_numbers set and the new_set set. "
