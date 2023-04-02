@@ -111,6 +111,7 @@ def check_step_2(
         with redirect_stdout(f):
             exec(users_code)
         output = f.getvalue()
+        lines = output.splitlines()
     except TimeoutError:
         raise TimeoutError(
             "Your code is taking too long to run. "
@@ -121,15 +122,15 @@ def check_step_2(
             "Your code is not working. "
             f"Please, try again. Error: {e}"
         )
-    assert '51' not in output, \
+    assert '51' not in lines, \
         ("You are printing 51 when running the code. "
          "The code should print the numbers from 1 to 50. "
          "Please, try again.")
-    assert '0' not in output, \
+    assert '0' not in lines, \
         ("You are printing 0 when running the code. "
          "The code should print the numbers from 1 to 50. "
          "Please, try again.")
-    assert '1' in output and '50' in output, \
+    assert '1' in lines and '50' in lines, \
         ("You are not printing the numbers from 1 to 50. "
          "The marking system is looking for the numbers 1 and 50 in the output. "
          "Please, try again.")
