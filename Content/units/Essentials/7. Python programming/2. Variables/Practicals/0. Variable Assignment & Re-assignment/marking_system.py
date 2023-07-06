@@ -10,6 +10,8 @@ def check_step_2(
 ) -> None:
     assert "print" in your_code, "Your code should contain a print statement."
     assert "my_variable" in your_code, "Your print statement should contain the variable 'my_variable'"
+    assert "(" in your_code, "Your print statement should contain parentheses '()' to call the 'print' function"
+    assert ")" in your_code, "Your print statement should contain parentheses '()' to call the 'print' function"
     print("\033[92m\N{heavy check mark} Well done!")
 
 def check_step_3(

@@ -34,6 +34,6 @@ def check_step_1(
     else:
         print(
             "\033[92m\N{heavy check mark} Well done! "
-            "You successfully created a function that checks "
-            "whether a number is in a given range."
+            "You successfully created a function that returns "
+            "a list with the unique elements of the input list."
         )
