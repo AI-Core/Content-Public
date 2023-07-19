@@ -1,0 +1,1270 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "21",
+        "end": "21",
+        "highlightText": "file",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "# Github README file",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Github README file",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "165",
+        "end": "174",
+        "highlightText": "important",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 9,
+        "starting_sentence": "A GitHub repository'",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9448242188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "A GitHub repository'",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "391",
+        "end": "428",
+        "highlightText": "in a clear and straightforward manner",
+        "replacements": [
+            "clearly and straightforwardly"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 17,
+        "starting_sentence": "## Motivation  The R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "652",
+        "end": "657",
+        "highlightText": "your",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 18,
+        "starting_sentence": "## Motivation  The R",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Motivation  The R",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "970",
+        "end": "972",
+        "highlightText": "Markdown  markdown",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 33,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1158",
+        "end": "1164",
+        "highlightText": "Is  3.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 34,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1214",
+        "end": "1216",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 35,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "1244",
+        "end": "1245",
+        "highlightText": "image !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 36,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "584",
+        "end": "615",
+        "highlightText": "to easily style text on the web",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 37,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "69",
+        "end": "87",
+        "highlightText": "have the option to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 39,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "88",
+        "end": "98",
+        "highlightText": "initialize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 38,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "244",
+        "end": "248",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 40,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "349",
+        "end": "359",
+        "highlightText": "repository",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 41,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1149",
+        "end": "1157",
+        "highlightText": "This  2.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 42,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1165",
+        "end": "1169",
+        "highlightText": "A 4.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 43,
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9770507811999996
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9047851561999996
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.6176757811999998
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " ## README File Basi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2686",
+        "end": "2690",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 67,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "504",
+        "end": "505",
+        "highlightText": "possible,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 68,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2642",
+        "end": "2646",
+        "highlightText": ", it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 69,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2230",
+        "end": "2234",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 70,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "156",
+        "end": "160",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 71,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "568",
+        "end": "568",
+        "highlightText": "example",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 72,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "673",
+        "end": "678",
+        "highlightText": "that it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 73,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "3477",
+        "end": "3478",
+        "highlightText": "follow,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 74,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3551",
+        "end": "3567",
+        "highlightText": "might be able to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 75,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3249",
+        "end": "3253",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 77,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "3330",
+        "end": "3331",
+        "highlightText": "improvements,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 76,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3071",
+        "end": "3074",
+        "highlightText": "eg.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 78,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1212",
+        "end": "1220",
+        "highlightText": "a lot of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 79,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3657",
+        "end": "3668",
+        "highlightText": "is released",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 80,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3725",
+        "end": "3737",
+        "highlightText": "your project",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 81,
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " ## Sections of a RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "499",
+        "end": "499",
+        "highlightText": "turn",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "## How a Good README",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "131",
+        "end": "136",
+        "highlightText": "your",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 14,
+        "starting_sentence": "## How a Good README",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "317",
+        "end": "318",
+        "highlightText": "industry,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "## How a Good README",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "685",
+        "end": "685",
+        "highlightText": "all",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "## How a Good README",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "690",
+        "end": "699",
+        "highlightText": "important",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 17,
+        "starting_sentence": "## How a Good README",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\ud83d\ude0d",
+                "emojiId": "1f60d",
+                "name": "admiring",
+                "confidence": 0.6513671875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## How a Good README",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Enhancing Your RE",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1691",
+        "end": "1695",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 20,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1550",
+        "end": "1558",
+        "highlightText": ", but if",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 21,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "259",
+        "end": "259",
+        "highlightText": ".io",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 22,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1035",
+        "end": "1043",
+        "highlightText": "thlorenz",
+        "replacements": [
+            "Lorenz"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 23,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1044",
+        "end": "1050",
+        "highlightText": "doctoc",
+        "replacements": [
+            "doctor",
+            "doctors"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 24,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "1905",
+        "end": "1905",
+        "highlightText": ".io",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 25,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "798",
+        "end": "810",
+        "highlightText": "giphycapture",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 26,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "675",
+        "end": "678",
+        "highlightText": "phw",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 27,
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.919921875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "  1. **Badges** Badg",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "494",
+        "end": "495",
+        "highlightText": "picture,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 22,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "579",
+        "end": "591",
+        "highlightText": "very limited",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 21,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "9",
+        "end": "15",
+        "highlightText": "Github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 23,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1190",
+        "end": "1200",
+        "highlightText": "Initialize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 24,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1261",
+        "end": "1265",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 25,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1469",
+        "end": "1477",
+        "highlightText": "Here you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 26,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1570",
+        "end": "1581",
+        "highlightText": "you're done",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "766",
+        "end": "770",
+        "highlightText": "and",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 28,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "933",
+        "end": "939",
+        "highlightText": "exact",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "984",
+        "end": "998",
+        "highlightText": "capitalization",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 29,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "632",
+        "end": "641",
+        "highlightText": "very easy",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 31,
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.5986328125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Your Github Profi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "300",
+        "end": "300",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "You can then clone t",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "421",
+        "end": "422",
+        "highlightText": "br",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "You can then clone t",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\ude10",
+                "emojiId": "1f610",
+                "name": "neutral",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "You can then clone t",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1175",
+        "end": "1185",
+        "highlightText": "omidnikrah",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 18,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1186",
+        "end": "1192",
+        "highlightText": "github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 15,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1292",
+        "end": "1307",
+        "highlightText": "soroushchehresa",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 19,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1308",
+        "end": "1314",
+        "highlightText": "github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1322",
+        "end": "1330",
+        "highlightText": "linkedin",
+        "replacements": [
+            "LinkedIn"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 17,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "583",
+        "end": "584",
+        "highlightText": "use,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 20,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "757",
+        "end": "772",
+        "highlightText": "alexandresanlim",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 24,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "855",
+        "end": "861",
+        "highlightText": "Github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 21,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "904",
+        "end": "915",
+        "highlightText": "anuraghazra",
+        "replacements": [
+            "Anuradhapura"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 22,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "916",
+        "end": "935",
+        "highlightText": "github-readme-stats",
+        "replacements": [
+            "GitHub-readme-stats"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 23,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "401",
+        "end": "405",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 25,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "438",
+        "end": "442",
+        "highlightText": "any",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 26,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "112",
+        "end": "119",
+        "highlightText": "around",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.4494628906
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### What to Put in y",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "120",
+        "end": "123",
+        "highlightText": "psf",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 8,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "202",
+        "end": "211",
+        "highlightText": "microsoft",
+        "replacements": [
+            "Microsoft"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 4,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "212",
+        "end": "218",
+        "highlightText": "vscode",
+        "replacements": [
+            "vs code"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 5,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "300",
+        "end": "313",
+        "highlightText": "matiassingers",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 9,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "471",
+        "end": "485",
+        "highlightText": "abhisheknaiidu",
+        "replacements": [
+            "Abhishek Naidu"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "494",
+        "end": "500",
+        "highlightText": "github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "412",
+        "end": "424",
+        "highlightText": "high quality",
+        "replacements": [
+            "high-quality"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 10,
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Examples of Great",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "689",
+        "end": "691",
+        "highlightText": "skills",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "- Your repo's README",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "336",
+        "end": "336",
+        "highlightText": "compelling",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 10,
+        "starting_sentence": "- Your repo's README",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "- Your repo's README",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 92
+    }
+]

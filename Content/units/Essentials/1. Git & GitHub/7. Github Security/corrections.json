@@ -1,0 +1,950 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Github Security",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "327",
+        "end": "327",
+        "highlightText": "lesson",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 9,
+        "starting_sentence": "## Motivation   Lear",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "645",
+        "end": "645",
+        "highlightText": "project",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 10,
+        "starting_sentence": "## Motivation   Lear",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "98",
+        "end": "110",
+        "highlightText": "unauthorized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 11,
+        "starting_sentence": "## Motivation   Lear",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83d\udca1",
+                "emojiId": "1f4a1",
+                "name": "inspirational",
+                "confidence": 0.7475585938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Motivation   Lear",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "417",
+        "end": "429",
+        "highlightText": "unauthorized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 11,
+        "starting_sentence": "## Two-Factor Authen",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "498",
+        "end": "502",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 12,
+        "starting_sentence": "## Two-Factor Authen",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "234",
+        "end": "238",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 14,
+        "starting_sentence": "## Two-Factor Authen",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "301",
+        "end": "302",
+        "highlightText": "smartphone,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "## Two-Factor Authen",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "152",
+        "end": "153",
+        "highlightText": "password,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "## Two-Factor Authen",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.990234375
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9731445312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Two-Factor Authen",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "349",
+        "end": "357",
+        "highlightText": "be asked",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 13,
+        "starting_sentence": "### How to Set Up Tw",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "193",
+        "end": "194",
+        "highlightText": "page,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 14,
+        "starting_sentence": "### How to Set Up Tw",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "433",
+        "end": "452",
+        "highlightText": "You'll be presented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "### How to Set Up Tw",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the preposition",
+        "sentence_no": "0",
+        "begin": "543",
+        "end": "547",
+        "highlightText": "via",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "### How to Set Up Tw",
+        "cell_number": 1
+    },
+    {
+        "todo": "capitalize word",
+        "sentence_no": "0",
+        "begin": "272",
+        "end": "280",
+        "highlightText": "security",
+        "replacements": [
+            "Security"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 12,
+        "starting_sentence": "### How to Set Up Tw",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.994140625
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9892578125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### How to Set Up Tw",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "798",
+        "end": "808",
+        "highlightText": "you would",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 19,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "344",
+        "end": "364",
+        "highlightText": "in a secure location",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "421",
+        "end": "456",
+        "highlightText": "Each recovery code can only be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 21,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "643",
+        "end": "650",
+        "highlightText": "In case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "877",
+        "end": "900",
+        "highlightText": "they could also be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 24,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "909",
+        "end": "921",
+        "highlightText": "unauthorized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 23,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "953",
+        "end": "961",
+        "highlightText": "were to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 25,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "117",
+        "end": "124",
+        "highlightText": "in case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 26,
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Backup Methods f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1766",
+        "end": "1772",
+        "highlightText": "Github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 28,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "1865",
+        "end": "1867",
+        "highlightText": "Linux  bash",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 30,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1872",
+        "end": "1878",
+        "highlightText": "pbcopy",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 29,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "1925",
+        "end": "1927",
+        "highlightText": "Bash  bash",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 31,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "944",
+        "end": "948",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 32,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "2136",
+        "end": "2136",
+        "highlightText": "New",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 33,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "600",
+        "end": "624",
+        "highlightText": "have the choice of using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 34,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "90",
+        "end": "91",
+        "highlightText": "computers,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 35,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "259",
+        "end": "262",
+        "highlightText": "of",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 36,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "266",
+        "end": "284",
+        "highlightText": "keys a private key",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 37,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "842",
+        "end": "858",
+        "highlightText": "is authenticated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 39,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "877",
+        "end": "878",
+        "highlightText": "key,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 38,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1207",
+        "end": "1208",
+        "highlightText": "systems,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 40,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "136",
+        "end": "143",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 41,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "475",
+        "end": "483",
+        "highlightText": "for you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 42,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1432",
+        "end": "1440",
+        "highlightText": "filepath",
+        "replacements": [
+            "file path"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 44,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "1472",
+        "end": "1473",
+        "highlightText": "key,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 43,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1983",
+        "end": "1989",
+        "highlightText": "Github",
+        "replacements": [
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 45,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "791",
+        "end": "794",
+        "highlightText": "hen",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 46,
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "  ## SSH Keys and Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "3079",
+        "end": "3085",
+        "highlightText": "github",
+        "replacements": [
+            "Github",
+            "GitHub"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 55,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix capitalization",
+        "sentence_no": "0",
+        "begin": "2679",
+        "end": "2682",
+        "highlightText": "See",
+        "replacements": [
+            "see"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 56,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1308",
+        "end": "1308",
+        "highlightText": "time",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 57,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "2255",
+        "end": "2255",
+        "highlightText": "Invite",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 58,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1792",
+        "end": "1816",
+        "highlightText": "has write access as well",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 61,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1381",
+        "end": "1385",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 63,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1446",
+        "end": "1449",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 62,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1978",
+        "end": "1988",
+        "highlightText": "which are",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 64,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "143",
+        "end": "147",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 66,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "160",
+        "end": "172",
+        "highlightText": "are assigned",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 67,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "173",
+        "end": "176",
+        "highlightText": "to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 68,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "181",
+        "end": "181",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 65,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "650",
+        "end": "670",
+        "highlightText": "are individuals who",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 71,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "675",
+        "end": "687",
+        "highlightText": "been granted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 70,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "699",
+        "end": "700",
+        "highlightText": "write,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 69,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "2109",
+        "end": "2113",
+        "highlightText": "the repository",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 72,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "746",
+        "end": "746",
+        "highlightText": ".In",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 73,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "1159",
+        "end": "1164",
+        "highlightText": "write",
+        "replacements": [
+            "written"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 60,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "todo": "capitalize word",
+        "sentence_no": "0",
+        "begin": "2264",
+        "end": "2276",
+        "highlightText": "collaborator",
+        "replacements": [
+            "Collaborator"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 59,
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " ## Understanding Gi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "134",
+        "end": "144",
+        "highlightText": "minimizing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 11,
+        "starting_sentence": "- **Two-Factor Authe",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "145",
+        "end": "157",
+        "highlightText": "unauthorized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 12,
+        "starting_sentence": "- **Two-Factor Authe",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9633789062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "- **Two-Factor Authe",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 70
+    }
+]
