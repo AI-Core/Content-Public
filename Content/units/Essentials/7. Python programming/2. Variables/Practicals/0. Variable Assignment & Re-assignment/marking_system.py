@@ -1,8 +1,8 @@
 def check_step_1(
     my_variable: int,
 ) -> None:
-    assert isinstance(my_variable, int), "The variable 'age' should be an integer."
-    assert my_variable == 23, "The variable 'age' should be equal to 23."
+    assert isinstance(my_variable, int), "The variable 'my_variable' should be an integer."
+    assert my_variable == 23, "The variable 'my_variable' should be equal to 23."
     print("\033[92m\N{heavy check mark} Well done!")
 
 def check_step_2(
@@ -17,8 +17,8 @@ def check_step_2(
 def check_step_3(
     my_variable: int,
 ) -> None:
-    assert isinstance(my_variable, int), "The variable 'age' should be an integer."
-    assert my_variable == 98, "The variable 'age' should be equal to 98."
+    assert isinstance(my_variable, int), "The variable 'my_variable' should be an integer."
+    assert my_variable == 98, "The variable 'my_variable' should be equal to 98."
     print("\033[92m\N{heavy check mark} Well done!")
 
 def check_step_4(
