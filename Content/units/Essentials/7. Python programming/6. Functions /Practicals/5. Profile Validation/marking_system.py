@@ -169,20 +169,21 @@ def check_step_5(
     try:
         name = "John"
         output_name_1 = check_name(name)
-        if output_name_1 is not None:
+        if not output_name_1:
             raise ProfileError(
-                "The marking system tried to run your the check_name function "
-                f"using the argument {name}, so it shouldn't return "
-                f"anything, but it returned {output_name_1}. Please, try again."
+                "The marking system tried to run your check_name function "
+                f"using the argument {name}, so it should return True "
+                "but it returned False. Please, try again."
             )
+        
         name = "John!"
-        expected_name_2 = "Invalid name"
+        expected_name_2 = False
         output_name_2 = check_name(name)
         if output_name_2 != expected_name_2:
             raise ProfileError(
-                "The marking system tried to run your the check_name function "
-                f"using the argument {name}, so it should return "
-                f"{expected_name_2}, but it returned {output_name_2}. Please, try again."
+                "The marking system tried to run your check_name function "
+                f"using the argument {name}, so it should return {expected_name_2}, "
+                f"but it returned {output_name_2}. Please, try again."
             )
 
         email = "john@hotmail.com"
