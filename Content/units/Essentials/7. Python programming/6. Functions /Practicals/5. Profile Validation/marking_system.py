@@ -1,4 +1,4 @@
-from typing import Callable, Optional
+from typing import Callable, Optional, Union
 
 class ProfileError(Exception):
     def __init__(self, message=None):
@@ -21,26 +21,24 @@ def check_step_1(
         "\033[92m\N{heavy check mark} Well done! "
         "You have defined the validate_profile function correctly"
     )
-def check_step_2(
-    validate_profile: Callable[[str, str, str], Optional[str]]
-) -> None:
+
+def check_step_2(validate_profile: Callable[[str, int, str], Optional[Union[str, bool]]]) -> None:
     try:
         name = "John"
         age = 20
         email = "john@hotmail.com"
+        expected_1 = True
         output_1 = validate_profile(name, age, email)
 
-        if output_1 is not None:
+        if output_1 != expected_1:
             raise ProfileError(
                 "The marking system tried to run your function "
                 f"using the arguments {name}, {age}, and {email}, "
-                "so it shouldn't return anything, but it returned "
+                f"so it should return {expected_1}, but it returned "
                 f"{output_1}. Please, try again."
             )
 
         name = "John!"
-        age = 20
-        email = "john@hotmail.com"
         expected_2 = "Invalid name"
         output_2 = validate_profile(name, age, email)
 
@@ -51,9 +49,6 @@ def check_step_2(
                 f"so it should return {expected_2}, but it returned "
                 f"{output_2}. Please, try again."
             )
-
-    except ProfileError as e:
-        raise ProfileError(e)
 
     except Exception as e:
         raise Exception(
@@ -69,19 +64,20 @@ def check_step_2(
 
 
 def check_step_3(
-    validate_profile: Callable[[str, str, str], Optional[str]]
+    validate_profile: Callable[[str, int, str], Union[bool, str]]
 ) -> None:
     try:
         name = "John"
         age = 20
         email = "john@hotmail.com"
+        expected_1 = True
         output_1 = validate_profile(name, age, email)
 
-        if output_1 is not None:
+        if output_1 != expected_1:
             raise ProfileError(
                 "The marking system tried to run your function "
                 f"using the arguments {name}, {age}, and {email}, "
-                "so it shouldn't return anything, but it returned "
+                f"so it should return {expected_1}, but it returned "
                 f"{output_1}. Please, try again."
             )
 
@@ -114,20 +110,24 @@ def check_step_3(
             "Your function now checks if the email is valid"
         )
 
+
+from typing import Callable, Optional, Union
+
 def check_step_4(
-    validate_profile: Callable[[str, str, str], Optional[str]]
+    validate_profile: Callable[[str, int, str], Union[bool, str]]
 ) -> None:
     try:
         name = "John"
         age = 20
         email = "john@hotmail.com"
+        expected_1 = True
         output_1 = validate_profile(name, age, email)
 
-        if output_1 is not None:
+        if output_1 != expected_1:
             raise ProfileError(
                 "The marking system tried to run your function "
                 f"using the arguments {name}, {age}, and {email}, "
-                "so it shouldn't return anything, but it returned "
+                f"so it should return {expected_1}, but it returned "
                 f"{output_1}. Please, try again."
             )
 
@@ -160,79 +160,50 @@ def check_step_4(
             "Your function now checks if the age is valid"
         )
 
+
 def check_step_5(
-    check_name: Callable[[str], None],
-    check_email: Callable[[str], None],
-    check_age: Callable[[int], None],
-    validate_profile: Callable[[str, str, str], None]
+    check_name: Callable[[str], Union[bool, str]],
+    check_email: Callable[[str], Union[bool, str]],
+    check_age: Callable[[int], Union[bool, str]],
+    validate_profile: Callable[[str, int, str], Union[bool, str]]
 ) -> None:
     try:
-        name = "John"
-        output_name_1 = check_name(name)
-        if output_name_1 is not None:
-            raise ProfileError(
-                "The marking system tried to run your the check_name function "
-                f"using the argument {name}, so it shouldn't return "
-                f"anything, but it returned {output_name_1}. Please, try again."
-            )
-        name = "John!"
-        expected_name_2 = "Invalid name"
-        output_name_2 = check_name(name)
-        if output_name_2 != expected_name_2:
-            raise ProfileError(
-                "The marking system tried to run your the check_name function "
-                f"using the argument {name}, so it should return "
-                f"{expected_name_2}, but it returned {output_name_2}. Please, try again."
-            )
+        # Check Name Validation
+        name_invalid = "John!"
+        name_valid = "John"
+        assert check_name(name_valid) == True
+        assert check_name(name_invalid) == "Invalid name"
 
-        email = "john@hotmail.com"
-        output_email_1 = check_email(email)
-        if output_email_1 is not None:
-            raise ProfileError(
-                "The marking system tried to run your the check_email function "
-                f"using the argument {email}, so it shouldn't return "
-                f"anything, but it returned {output_email_1}. Please, try again."
-            )
+        # Check Email Validation
+        email_invalid = "johnathotmail.com"
+        email_valid = "john@hotmail.com"
+        assert check_email(email_valid) == True
+        assert check_email(email_invalid) == "Invalid email"
 
-        email = "johnathotmail.com"
-        expected_email_2 = "Invalid email"
-        output_email_2 = check_email(email)
-        if output_email_2 != expected_email_2:
-            raise ProfileError(
-                "The marking system tried to run your the check_email function "
-                f"using the argument {email}, so it should return "
-                f"{expected_email_2}, but it returned {output_email_2}. Please, try again."
-            )
+        # Check Age Validation
+        age_valid = 20
+        age_invalid = 11
+        assert check_age(age_valid) == True
+        assert check_age(age_invalid) == "Invalid age"
 
-        age = 20
-        output_age_1 = check_age(age)
-        if output_age_1 is not None:
-            raise ProfileError(
-                "The marking system tried to run your the check_age function "
-                f"using the argument {age}, so it shouldn't return "
-                f"anything, but it returned {output_age_1}. Please, try again."
-            )
+        # Check Full Profile Validation
+        assert validate_profile(name_valid, age_valid, email_valid) == "Profile created"
+        assert validate_profile(name_invalid, age_valid, email_valid) == "Invalid name"
+        assert validate_profile(name_valid, age_invalid, email_valid) == "Invalid age"
+        assert validate_profile(name_valid, age_valid, email_invalid) == "Invalid email"
 
-        age = 11
-        expected_age_2 = "Invalid age"
-        output_age_2 = check_age(age)
-        if output_age_2 != expected_age_2:
-            raise ProfileError(
-                "The marking system tried to run your the check_age function "
-                f"using the argument {age}, so it should return "
-                f"{expected_age_2}, but it returned {output_age_2}. Please, try again."
-            )
-
+    except AssertionError:
+        raise ProfileError(
+            "The marking system found an inconsistency in your validation functions. Please, try again."
+        )
     except ProfileError as e:
         raise ProfileError(e)
-
     except Exception as e:
         raise Exception(
-            "The marking system tried to run your function "
+            "The marking system tried to run your functions "
             "but something went wrong. Check the error message below. "
             "Please, try again.\n" + str(e)
         )
-
     else:
         print(
             "\033[92m\N{heavy check mark} Well done! "
