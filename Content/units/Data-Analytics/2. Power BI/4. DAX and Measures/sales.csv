@@ -1,0 +1,5 @@
+TransactionID,EmployeeID,SaleAmount
+1,E001,1000
+2,E002,1500
+3,E003,2000
+4,E001,2500
