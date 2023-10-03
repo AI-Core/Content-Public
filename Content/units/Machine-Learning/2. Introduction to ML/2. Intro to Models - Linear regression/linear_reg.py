@@ -2,7 +2,7 @@
 from sklearn import datasets
 import numpy as np
 
-X, y = datasets.load_boston(return_X_y=True)
+X, y = datasets.fetch_california_housing(return_X_y=True)
 
 print(X.shape)
 print(y.shape)

@@ -2,7 +2,7 @@
 from sklearn import datasets, model_selection, linear_model, tree
 import numpy as np
 
-X, y = datasets.load_boston(return_X_y=True)
+X, y = datasets.fetch_california_housing(return_X_y=True)
 
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, train_size=0.8)
 X_train, X_val, y_train, y_val = model_selection.train_test_split(X_train, y_train, train_size=0.8)

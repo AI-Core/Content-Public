@@ -2,7 +2,7 @@ import mlflow
 import joblib
 from sklearn import datasets, linear_model
 
-data = datasets.load_boston()
+data = datasets.fetch_california_housing(return_X_y=True)
 X = data["data"]
 y = data["target"]
 

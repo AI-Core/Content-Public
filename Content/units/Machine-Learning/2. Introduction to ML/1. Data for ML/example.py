@@ -2,7 +2,7 @@
 import joblib
 from sklearn import datasets
 
-data = datasets.load_boston()
+data = datasets.fetch_california_housing()
 
 print(data.keys())
 

@@ -3,7 +3,7 @@ from sklearn import datasets
 import numpy as np
 import matplotlib.pyplot as plt
 
-X, y = datasets.load_boston(return_X_y=True)
+X, y = datasets.fetch_california_housing(return_X_y=True)
 
 # normalise
 X_mean = np.mean(X, axis=0)
