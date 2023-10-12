@@ -1,0 +1,9 @@
+Salesperson,Product Category,Month,Sales
+Alice,Electronics,January,1200
+Alice,Electronics,February,1100
+Alice,Furniture,January,500
+Bob,Electronics,January,1500
+Bob,Furniture,February,600
+Bob,Furniture,January,400
+Carol,Electronics,February,1000
+Carol,Furniture,February,700
