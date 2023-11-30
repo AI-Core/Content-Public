@@ -1,0 +1,6 @@
+Column1,Column2,Column3,Column4,Column5
+1,a,1.1,apple,
+2,b,,NULL,
+3, ,3.3,carrot,
+4,d,4.4,banana,
+5,e,5.5,NULL,
